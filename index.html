@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="public/css/style.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="public/js/turbolinks.js"></script>
+
+</head>
+
+<body>
+  <header>
+      <nav>
+        <div class="nav-wrapper blue">
+          <a href="" class="brand-logo center">Logo</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html">My Profile</a></li>
+            <li><a href="blo.html">BLO Directory</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="collapsible.html">Settings</a></li>
+            <li><a href="collapsible.html">Logout</a></li>
+          </ul>
+          <ul id="nav-mobile" class="right">
+            <li>
+              <div class="switch">
+                <label style="color: white">
+                  English
+                  <input type="checkbox">
+                  <span class="lever"></span>
+                </label></div>
+            </li>
+          </ul>
+        </div>
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="sass.html">My Profile</a></li>
+          <li><a href="blo.html">BLO Directory</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="collapsible.html">Settings</a></li>
+          <li><a href="mobile.html">Logout</a></li>
+        </ul>
+
+
+      </nav>
+  </header>
+  <main>
+    <div class="container" style="overflow:scroll">
+      <div class="row">
+        <div class="col s6">
+          <div class="card-panel orange darken-4">
+            <div class="row">
+              <div class="center">
+                <img src="public/images/selfie.svg" alt="selfie stick" class="circle white" style="width:100px;height:100px;">
+              </div>
+              <h5 style="color: white" class="center">Selfie le le Re</h5>
+              <br>
+
+            </div>
+          </div>
+        </div>
+        <div class="col s6">
+          <a href="tel:+917573043997">
+            <div class="card-panel purple darken-3">
+              <div class="row">
+                <div class="center">
+                  <img src="public/images/call.svg" alt="missed call" class="circle white" style="width:100px;height:100px;">
+                </div>
+                <h5 style="color: white" class="center">Call for Pledge</h5>
+                <h6 style="color: white" class="center">75730-43997</h6>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s6">
+          <ul class="collection">
+            <li class="collection-item"><div>BLO Directory<a href="#!" class="secondary-content"><i class="material-icons">forward</i></a></div></li>
+          </ul>
+        </div>
+        <div class="col s6">
+          <ul class="collection">
+            <li class="collection-item"><div>Assembly Name<a href="#!" class="secondary-content"><i class="material-icons">forward</i></a></div></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="page-footer blue fixed">
+    <div class="container">
+      <div class="row">
+        <div class="center col s3">
+          <a class="active" href="">
+            <i class="material-icons white">home</i>
+            <p class="center" style="color:white">Home</p>
+            <hr style="color:white">
+          </a>
+        </div>
+        <div class="center col s3">
+          <a href="sveep.html" class="active">
+            <i class="material-icons white">how_to_vote</i></a>
+
+          <p class="center">SVEEP</p>
+        </div>
+        <div class="center col s3">
+          <a href="" class="active"><i class="material-icons white">poll</i></a>
+          <p class="center">Mock Poll</p>
+        </div>
+        <div class="center col s3">
+          <a href="" class="active"><i class="material-icons white">link</i></a>
+          <p class="center">Quick Links</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- end of footer contents -->
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+
+      $('.sidenav').sidenav();
+
+    });
+  </script>
+
+</body>
+
+</html>
