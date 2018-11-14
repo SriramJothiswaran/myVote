@@ -8,16 +8,17 @@ body {
 }
 main {
   flex: 1 0 auto;
-  margin-bottom: 180px !important;
+  margin-bottom: 150px !important;
+}
+
+.page-footer{
+  padding-top: 15px;
 }
 
 footer {
   bottom: 0;
   left: 0;
   right: 0;
-}
-footer {
-  padding: 5px 0;
   position: fixed;
   background: #343439;
   width: 100%;
@@ -26,6 +27,14 @@ footer {
 
 footer .row{
   margin-bottom: 0px;
+}
+
+footer i{
+  color: white;
+}
+
+footer p{
+  margin-top: 5px;
 }
 
 thead tr {
@@ -183,4 +192,11 @@ table.dataTable thead .sorting_desc_disabled:after {
 
 #dayNotify{
   font-weight: 800;
+}
+
+.nagaur {
+  background: -webkit-linear-gradient(#feac5e, #c779d0);
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

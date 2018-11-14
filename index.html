@@ -56,8 +56,32 @@
       </div>
     </div>
 
+    <!-- carousel begins here -->
+    <div class="carousel carousel-slider center">
+      <div class="carousel-fixed-item center">
+        <a class="btn waves-effect white grey-text darken-text-2">button</a>
+      </div>
+      <div class="carousel-item red white-text" href="#one!">
+        <h2>First Panel</h2>
+        <p class="white-text">This is your first panel</p>
+      </div>
+      <div class="carousel-item amber white-text" href="#two!">
+        <h2>Second Panel</h2>
+        <p class="white-text">This is your second panel</p>
+      </div>
+      <div class="carousel-item green white-text" href="#three!">
+        <h2>Third Panel</h2>
+        <p class="white-text">This is your third panel</p>
+      </div>
+      <div class="carousel-item blue white-text" href="#four!">
+        <h2>Fourth Panel</h2>
+        <p class="white-text">This is your fourth panel</p>
+      </div>
+    </div>
+    <!-- end of carousel -->
+
     <div class="container" style="overflow:scroll">
-      <div class="row">
+      <!-- <div class="row">
         <div class="col s6">
           <div class="card-panel orange darken-4">
             <div class="row">
@@ -84,51 +108,98 @@
           </a>
 
         </div>
+      </div> -->
+    </div>
+    <div class="container" style="margin-top: 80px;">
+      <div class="row">
+        <div class="col s6">
+          <ul class="collection">
+            <a href="http://164.100.153.10/electoralroll/default.aspx">
+              <li class="collection-item">Know your EPIC</li>
+            </a>
+          </ul>
+        </div>
+        <div class="col s6">
+          <ul class="collection">
+            <a href="blo.html">
+              <li class="collection-item">BLO Directory</li>
+            </a>
+          </ul>
+        </div>
       </div>
       <div class="row">
         <div class="col s6">
           <ul class="collection">
-            <li class="collection-item">
-              <div>BLO Directory<a href="#!" class="secondary-content"><i class="material-icons">forward</i></a></div>
-            </li>
+            <a href="https://cvigil.eci.nic.in/">
+              <li class="collection-item">Grevience</li>
+            </a>
           </ul>
         </div>
         <div class="col s6">
           <ul class="collection">
-            <li class="collection-item">
-              <div>Assembly Name<a href="#!" class="secondary-content"><i class="material-icons">forward</i></a></div>
-            </li>
+            <a href="blo.html">
+              <li class="collection-item">Mock Demo</li>
+            </a>
           </ul>
         </div>
       </div>
-
+      <div class="row">
+        <div class="col s6">
+          <ul class="collection">
+            <a href="#">
+              <li class="collection-item">Gallery</li>
+            </a>
+          </ul>
+        </div>
+        <div class="col s6">
+          <ul class="collection">
+            <a href="blo.html">
+              <li class="collection-item">Events/News</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s6">
+          <ul class="collection">
+            <a href="http://164.100.153.10/electoralroll/default.aspx">
+              <li class="collection-item">Know your polling station</li>
+            </a>
+          </ul>
+        </div>
+        <div class="col s6">
+          <ul class="collection">
+            <a href="blo.html">
+              <li class="collection-item">Important Contacts</li>
+            </a>
+          </ul>
+        </div>
+      </div>
     </div>
   </main>
 
   <footer class="page-footer red lighten-1 fixed">
-    <div class="container">
-      <div class="row">
-        <div class="center col s3">
-          <a class="active" href="">
-            <i class="material-icons white">home</i>
-            <p class="center" style="color:white">Home</p>
-            <hr style="color:white">
-          </a>
-        </div>
-        <div class="center col s3">
-          <a href="sveep.html" class="active">
-            <i class="material-icons white">how_to_vote</i></a>
+    <div class="row">
+      <div class="center col s3">
+        <a class="active" href="">
+          <i class="material-icons">home</i>
+          <p class="center" style="color:white">Home</p>
+          <hr style="color:white">
+        </a>
+      </div>
+      <div class="center col s3">
+        <a href="sveep.html" class="active">
+          <i class="material-icons">how_to_vote</i></a>
 
-          <p class="center">SVEEP</p>
-        </div>
-        <div class="center col s3">
-          <a href="" class="active"><i class="material-icons white">poll</i></a>
-          <p class="center">Mock Poll</p>
-        </div>
-        <div class="center col s3">
-          <a href="" class="active"><i class="material-icons white">link</i></a>
-          <p class="center">Quick Links</p>
-        </div>
+        <p class="center">SVEEP</p>
+      </div>
+      <div class="center col s3">
+        <a href="" class="active"><i class="material-icons">poll</i></a>
+        <p class="center">Mock Poll</p>
+      </div>
+      <div class="center col s3">
+        <a href="" class="active"><i class="material-icons">link</i></a>
+        <p class="center">Quick Links</p>
       </div>
     </div>
   </footer>
@@ -142,12 +213,14 @@
     $(document).ready(function() {
 
       $('.sidenav').sidenav();
+      $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true
+      });
 
     });
   </script>
   <script type="text/javascript">
-
-
     const _MS_PER_DAY = 1000 * 60 * 60 * 24;
 
     // a and b are javascript Date objects
@@ -163,12 +236,19 @@
     const electionDate = new Date("2018-12-07"),
       today = new Date(),
       daysLeft = dateDiffInDays(today, electionDate);
-      if (daysLeft>0) {
+    if (daysLeft >= 0) {
+      if (daysLeft > 1) {
         document.getElementById('dayNotify').innerHTML = daysLeft + ' days left until voting'
-      } else {
-        document.getElementById('dayNotify').innerHTML = 'Thanks for casting your vote'
       }
-
+      if (daysLeft === 1) {
+        document.getElementById('dayNotify').innerHTML = daysLeft + ' day left until voting'
+      }
+      if (daysLeft === 0) {
+        document.getElementById('dayNotify').innerHTML = 'Cast your vote today !'
+      }
+    } else {
+      document.getElementById('dayNotify').innerHTML = 'Thanks for casting your vote'
+    }
   </script>
 
 </body>
