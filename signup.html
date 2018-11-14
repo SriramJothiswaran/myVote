@@ -57,25 +57,32 @@
       <div class="container">
         <div class="row">
           <div class="input-field col s12">
-            <input id="name" type="text" class="validate">
+            <input id="name" type="text" class="validate" required>
             <label for="name">Enter your name</label>
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12">
-            <input id="mobile" type="text" class="validate">
-            <label for="mobile">Mobile Number</label>
+            <input id="email" type="email" class="validate" required>
+            <label for="email">Email address</label>
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12">
-            <input id="password" type="password" class="validate">
+            <input id="password" type="password" class="validate" required>
             <label for="password">Password</label>
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12">
-            <input id="voterid" type="text" class="validate">
+            <input id="mobile" type="text" class="validate" required>
+            <label for="mobile">Mobile Number</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="voterid" type="text" class="validate" required>
             <label for="voterid">Enter your Voter ID</label>
           </div>
         </div>
@@ -108,7 +115,7 @@
         </select>
 
         <p class="center-align">
-          <a style="z-index: -1;" class="waves-effect waves-light btn-large blue"><i class="material-icons right">send</i>Signup</a>
+          <button type="submit" style="z-index: -1;" class="waves-effect waves-light btn-large blue"><i class="material-icons right">send</i>Signup</button>
           <span>(or) <a href="login.html">Login</a></span>
         </p>
 
@@ -131,6 +138,19 @@
   <script type="text/javascript">
     $(document).ready(function() {
       $('.sidenav').sidenav();
+      $('form').on('submit', function (e) {
+        e.preventDefault();
+        url = 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=AIzaSyCugHpYcflBf9GF-_TpzbH-pBwgDdVER7M';
+        console.log('Hello');
+        $.ajax({
+           type: 'post',
+           url: url,
+           data: {email: $('#email').val(), password: $('#password').val(),returnSecureToken: true},
+           success: function () {
+             alert('form was submitted');
+           }
+         });
+      });
     });
   </script>
 

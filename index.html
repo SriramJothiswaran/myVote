@@ -15,40 +15,47 @@
 
 <body>
   <header>
-      <nav>
-        <div class="nav-wrapper blue">
-          <a href="" class="brand-logo center">Logo</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html">My Profile</a></li>
-            <li><a href="blo.html">BLO Directory</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="collapsible.html">Settings</a></li>
-            <li><a href="collapsible.html">Logout</a></li>
-          </ul>
-          <ul id="nav-mobile" class="right">
-            <li>
-              <div class="switch">
-                <label style="color: white">
-                  English
-                  <input type="checkbox">
-                  <span class="lever"></span>
-                </label></div>
-            </li>
-          </ul>
-        </div>
-        <ul class="sidenav" id="mobile-demo">
+    <nav>
+      <div class="nav-wrapper red lighten-1">
+        <a href="" class="brand-logo center">Logo</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="sass.html">My Profile</a></li>
           <li><a href="blo.html">BLO Directory</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="collapsible.html">Settings</a></li>
-          <li><a href="mobile.html">Logout</a></li>
+          <li><a href="collapsible.html">Logout</a></li>
         </ul>
+        <ul id="nav-mobile" class="right">
+          <li>
+            <div class="switch">
+              <label style="color: white">
+                English
+                <input type="checkbox">
+                <span class="lever"></span>
+              </label></div>
+          </li>
+        </ul>
+      </div>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">My Profile</a></li>
+        <li><a href="blo.html">BLO Directory</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="collapsible.html">Settings</a></li>
+        <li><a href="mobile.html">Logout</a></li>
+      </ul>
 
 
-      </nav>
+    </nav>
   </header>
   <main>
+    <div class="imagecontainer">
+      <img class="responsive-img" src="public/images/days_left.jpg">
+      <div class="centered">
+        <h5 id="dayNotify"></h5>
+      </div>
+    </div>
+
     <div class="container" style="overflow:scroll">
       <div class="row">
         <div class="col s6">
@@ -81,12 +88,16 @@
       <div class="row">
         <div class="col s6">
           <ul class="collection">
-            <li class="collection-item"><div>BLO Directory<a href="#!" class="secondary-content"><i class="material-icons">forward</i></a></div></li>
+            <li class="collection-item">
+              <div>BLO Directory<a href="#!" class="secondary-content"><i class="material-icons">forward</i></a></div>
+            </li>
           </ul>
         </div>
         <div class="col s6">
           <ul class="collection">
-            <li class="collection-item"><div>Assembly Name<a href="#!" class="secondary-content"><i class="material-icons">forward</i></a></div></li>
+            <li class="collection-item">
+              <div>Assembly Name<a href="#!" class="secondary-content"><i class="material-icons">forward</i></a></div>
+            </li>
           </ul>
         </div>
       </div>
@@ -94,7 +105,7 @@
     </div>
   </main>
 
-  <footer class="page-footer blue fixed">
+  <footer class="page-footer red lighten-1 fixed">
     <div class="container">
       <div class="row">
         <div class="center col s3">
@@ -133,6 +144,31 @@
       $('.sidenav').sidenav();
 
     });
+  </script>
+  <script type="text/javascript">
+
+
+    const _MS_PER_DAY = 1000 * 60 * 60 * 24;
+
+    // a and b are javascript Date objects
+    function dateDiffInDays(a, b) {
+      // Discard the time and time-zone information.
+      const utc1 = Date.UTC(a.getFullYear(), a.getMonth(), a.getDate());
+      const utc2 = Date.UTC(b.getFullYear(), b.getMonth(), b.getDate());
+
+      return Math.floor((utc2 - utc1) / _MS_PER_DAY);
+    }
+
+    // test it
+    const electionDate = new Date("2018-12-07"),
+      today = new Date(),
+      daysLeft = dateDiffInDays(today, electionDate);
+      if (daysLeft>0) {
+        document.getElementById('dayNotify').innerHTML = daysLeft + ' days left until voting'
+      } else {
+        document.getElementById('dayNotify').innerHTML = 'Thanks for casting your vote'
+      }
+
   </script>
 
 </body>
