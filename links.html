@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="public/css/materialize.min.css">
+  <link rel="stylesheet" href="public/css/style.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="public/js/turbolinks.js"></script>
+
+
+</head>
+
+<body>
+  <header>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper red lighten-1">
+          <a href="" class="brand-logo center"><img width="100px" src="public/images/logo.png" alt=""></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="blo.html">BLO Directory</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+          <ul id="nav-mobile" class="right">
+            <li>
+              <div class="switch">
+                <label style="color: white">
+                  English
+                  <input type="checkbox">
+                  <span class="lever"></span>
+                </label></div>
+            </li>
+          </ul>
+        </div>
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="blo.html">BLO Directory</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+
+
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container ">
+      <div class="col s12">
+        <div class="card horizontal blue">
+          <div class="card-content">
+            <span class="card-title" style="color:white; font-weight: bold;">Election Commission Of India</span>
+            <h6>https://www.eci.nic.in/</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card horizontal pink">
+          <div class="card-content">
+            <span class="card-title" style="color:white; font-weight: bold;">Chief Electoral Officer Rajasthan</span>
+            <h6>https://ceorajasthan.nic.in/</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card horizontal yellow darken-3">
+          <div class="card-content">
+            <span class="card-title" style="color:white; font-weight: bold;">Voter Awareness /SVEEP</span>
+            <h6>http://ecisveep.nic.in/</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card horizontal teal darken-1">
+          <div class="card-content">
+            <span class="card-title" style="color:white; font-weight: bold;">Search by EPIC</span>
+            <h6>http://164.100.153.10/electoralroll/default.aspx</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card horizontal purple darken-3">
+          <div class="card-content">
+            <span class="card-title" style="color:white; font-weight: bold;">Grievance</span>
+            <h6>https://cvigil.eci.nic.in/</h6>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- tab contents end here -->
+
+
+  <!-- Footer begins here -->
+
+  <footer class="page-footer red lighten-1 fixed">
+    <div class="row">
+      <div class="center col s3">
+        <a class="active" href="home.html">
+          <i class="material-icons">home</i>
+          <p class="center" style="color:white">Home</p>
+        </a>
+      </div>
+      <div class="center col s3">
+        <a href="blo.html" class="active">
+          <i class="material-icons">how_to_vote</i></a>
+
+        <p class="center">BLO</p>
+      </div>
+      <div class="center col s3">
+        <a href="/mock.html" class="active"><i class="material-icons">poll</i></a>
+        <p class="center">Mock Poll</p>
+      </div>
+      <div class="center col s3">
+        <a href="links.html" class="active"><i class="material-icons">link</i></a>
+        <p class="center">Quick Links</p>
+        <hr style="color:white">
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- end of footer contents -->
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script src="public/js/jquery.min.js"></script>
+  <script src="public/js/materialize.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="public/js/datatable.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.materialbox').materialbox();
+      $('.sidenav').sidenav();
+    });
+  </script>
+</body>
+
+</html>
