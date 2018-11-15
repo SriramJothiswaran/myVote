@@ -5,74 +5,78 @@
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="public/css/materialize.min.css">
   <link rel="stylesheet" href="public/css/style.css">
 
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- <script src="public/js/turbolinks.js"></script> -->
+  <script src="public/js/turbolinks.js"></script>
 
 
 </head>
 
 <body>
   <header>
-    <nav>
-      <div class="nav-wrapper red lighten-1">
-        <a href="" class="brand-logo center">Logo</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html">My Profile</a></li>
-          <li><a href="badges.html">BLO Directory</a></li>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper red lighten-1">
+          <a href="" class="brand-logo center"><img width="100px" src="public/images/logo.png" alt=""></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="blo.html">BLO Directory</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+          <ul id="nav-mobile" class="right">
+            <li>
+              <div class="switch">
+                <label style="color: white">
+                  English
+                  <input type="checkbox">
+                  <span class="lever"></span>
+                </label></div>
+            </li>
+          </ul>
+        </div>
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="blo.html">BLO Directory</a></li>
           <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="collapsible.html">Settings</a></li>
-          <li><a href="collapsible.html">Logout</a></li>
         </ul>
-        <ul id="nav-mobile" class="right">
-          <li>
-            <div class="switch">
-              <label style="color: white">
-                English
-                <input type="checkbox">
-                <span class="lever"></span>
-              </label></div>
-          </li>
-        </ul>
-      </div>
-      <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">My Profile</a></li>
-        <li><a href="badges.html">BLO Directory</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="collapsible.html">Settings</a></li>
-        <li><a href="mobile.html">Logout</a></li>
-      </ul>
 
 
-    </nav>
+      </nav>
+    </div>
   </header>
   <main class="container">
 
-    <table id="blo-table" class="material-table" style="width:100%">
-        <thead>
-            <tr>
-                <th>Assembly Name</th>
-                <th>Polling Station No</th>
-                <th>Voting Building</th>
-                <th>BLO Name</th>
-                <th>Designation</th>
-                <th>Mobile</th>
-            </tr>
-        </thead>
-        <tfoot>
-            <tr>
-              <th>Assembly Name</th>
-              <th>Polling Station No</th>
-              <th>Voting Building</th>
-              <th>BLO Name</th>
-              <th>Designation</th>
-              <th>Mobile</th>
-            </tr>
-        </tfoot>
+    <table id="blo-table" class="material-table" style="width:100%" data-turbolinks='false'>
+      <thead>
+        <tr>
+          <th>Assembly Name</th>
+          <th>Polling Station No</th>
+          <th>Voting Building</th>
+          <th>BLO Name</th>
+          <th>Designation</th>
+          <th>Mobile</th>
+          <th>Supervisor</th>
+          <th>Designation</th>
+          <th>Mobile</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <th>Assembly Name</th>
+          <th>Polling Station No</th>
+          <th>Voting Building</th>
+          <th>BLO Name</th>
+          <th>Designation</th>
+          <th>Mobile</th>
+          <th>Supervisor</th>
+          <th>Designation</th>
+          <th>Mobile</th>
+        </tr>
+      </tfoot>
     </table>
 
   </main>
@@ -84,83 +88,103 @@
 
   <footer class="page-footer red lighten-1">
     <div class="row">
-        <div class="center col s3">
-          <a href="/">
-            <i class="material-icons">home</i>
-            <p class="center" style="color:white">Home</p>
-          </a>
+      <div class="center col s3">
+        <a href="home.html">
+          <i class="material-icons">home</i>
+          <p class="center" style="color:white">Home</p>
+        </a>
 
-        </div>
-        <div class="center col s3">
-          <a href="sveep.html">
-            <i class="material-icons">how_to_vote</i>
-            <p class="center" style="color:white">SVEEP</p>
-          </a>
-
-        </div>
-        <div class="center col s3">
-          <a href="">
-            <i class="material-icons">poll</i>
-            <p class="center" style="color:white">Mock Poll</p>
-          </a>
-
-        </div>
-        <div class="center col s3">
-          <a href="">
-            <i class="material-icons">link</i>
-            <p class="center" style="color:white">Quick Links</p>
-          </a>
-
-        </div>
       </div>
+      <div class="center col s3">
+        <a href="blo.html">
+          <i class="material-icons">how_to_vote</i>
+          <p class="center" style="color:white">BLO</p>
+          <hr style="color:white">
+        </a>
+
+      </div>
+      <div class="center col s3">
+        <a href="/mock.html">
+          <i class="material-icons">poll</i>
+          <p class="center" style="color:white">Mock Poll</p>
+        </a>
+
+      </div>
+      <div class="center col s3">
+        <a href="">
+          <i class="material-icons">link</i>
+          <p class="center" style="color:white">Quick Links</p>
+        </a>
+
+      </div>
+    </div>
   </footer>
 
   <!-- end of footer contents -->
 
   <!--JavaScript at end of body for optimized loading-->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+  <script src="public/js/jquery.min.js"></script>
+  <script src="public/js/materialize.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="public/js/datatable.js"></script>
+
 
 
   <script type="text/javascript">
     $(document).ready(function() {
       $('.sidenav').sidenav();
-      $('#blo-table').DataTable( {
-        "scrollX": true,
-        "sPageButton": "praveenjuge",
-        "ajax": "public/json/nagoor.json",
-        "columns": [
-            { "data": "assemblyName" },
-            { "data": "pollingStationNumber" },
-            { "data": "votingBuilding" },
-            { "data": "bloName" },
-            { "data": "designation" },
-            { "data": "Mobile" }
-        ]
-    } );
+
     });
   </script>
   <script type="text/javascript">
-    function readTextFile(file, callback) {
-      var rawFile = new XMLHttpRequest();
-      rawFile.overrideMimeType("application/json");
-      rawFile.open("GET", file, true);
-      rawFile.onreadystatechange = function() {
-        if (rawFile.readyState === 4 && rawFile.status == "200") {
-          callback(rawFile.responseText);
-        }
+    var bloTable = null;
+    document.addEventListener("turbolinks:load", function() {
+      if (bloTable != null) {
+        bloTable.destroy();
       }
-      rawFile.send(null);
-    }
+      if ($('[id^=DataTables_Table]').length == 0) {
+        bloTable = $('#blo-table').DataTable({
+          stateSave: true,
+          "scrollX": true,
+          "sPageButton": "praveenjuge",
+          "ajax": "public/json/nagoor.json",
+          "columns": [{
+              "data": "assemblyName"
+            },
+            {
+              "data": "pollingStationNumber"
+            },
+            {
+              "data": "votingBuilding"
+            },
+            {
+              "data": "bloName"
+            },
+            {
+              "data": "designation"
+            },
+            {
+              "data": "mobile"
+            },
+            {
+              "data": "supervisor"
+            },
+            {
+              "data": "supervisorDesignation"
+            },
+            {
+              "data": "supervisorMobile"
+            }
+          ]
+        });
 
-    //usage:
-    readTextFile("public/json/nagoor.json", function(text) {
-      var datas = JSON.parse(text);
-      console.log(datas);
-
+      }
     });
+    document.addEventListener("turbolinks:before-cache", function () {
+      if ($('#blo-table_wrapper').length == 1)
+      bloTable.destroy()
+    })
   </script>
+
 </body>
 
 </html>

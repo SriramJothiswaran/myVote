@@ -1,256 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <!--Import Google Icon Font-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Take Pledge</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="public/css/materialize.min.css">
   <link rel="stylesheet" href="public/css/style.css">
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="public/js/turbolinks.js"></script>
 
 </head>
 
 <body>
-  <header>
-    <nav>
-      <div class="nav-wrapper red lighten-1">
-        <a href="" class="brand-logo center">Logo</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html">My Profile</a></li>
-          <li><a href="blo.html">BLO Directory</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="collapsible.html">Settings</a></li>
-          <li><a href="collapsible.html">Logout</a></li>
-        </ul>
-        <ul id="nav-mobile" class="right">
-          <li>
-            <div class="switch">
-              <label style="color: white">
-                English
-                <input type="checkbox">
-                <span class="lever"></span>
-              </label></div>
-          </li>
-        </ul>
+  <div class="container">
+    <div class="center">
+      <img src="public/images/eci_logo.png" alt="election commission logo" height="125px" width="125px">
+      <h5>Rajasthan Assembly Election - 2018</h5>
+      <h6>Welcome to Heart of Rajasthan</h6>
+      <div class="center">
+        <h4 class="nagaur">"Nagaur"</h4>
       </div>
-      <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">My Profile</a></li>
-        <li><a href="blo.html">BLO Directory</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="collapsible.html">Settings</a></li>
-        <li><a href="mobile.html">Logout</a></li>
-      </ul>
-
-
-    </nav>
-  </header>
-  <main>
-    <div class="imagecontainer">
-      <img class="responsive-img" src="public/images/days_left.jpg">
-      <div class="centered">
-        <h5 id="dayNotify"></h5>
+      <hr>
+    </div>
+    <div>
+      <div class="center">
+        <h5 style="font-weight: bolder; text-decoration: underline;">Pledge</h5>
       </div>
     </div>
-
-    <!-- carousel begins here -->
-    <div class="carousel carousel-slider center">
-      <div class="carousel-fixed-item center">
-        <a class="btn waves-effect white grey-text darken-text-2">button</a>
-      </div>
-      <div class="carousel-item red white-text" href="#one!">
-        <h2>First Panel</h2>
-        <p class="white-text">This is your first panel</p>
-      </div>
-      <div class="carousel-item amber white-text" href="#two!">
-        <h2>Second Panel</h2>
-        <p class="white-text">This is your second panel</p>
-      </div>
-      <div class="carousel-item green white-text" href="#three!">
-        <h2>Third Panel</h2>
-        <p class="white-text">This is your third panel</p>
-      </div>
-      <div class="carousel-item blue white-text" href="#four!">
-        <h2>Fourth Panel</h2>
-        <p class="white-text">This is your fourth panel</p>
-      </div>
-    </div>
-    <!-- end of carousel -->
-
-    <div class="container" style="overflow:scroll">
-      <!-- <div class="row">
-        <div class="col s6">
-          <div class="card-panel orange darken-4">
-            <div class="row">
-              <div class="center">
-                <img src="public/images/selfie.svg" alt="selfie stick" class="circle white" style="width:100px;height:100px;">
-              </div>
-              <h5 style="color: white" class="center">Selfie le le Re</h5>
-              <br>
-
-            </div>
+    <form onsubmit="return submitHandler();">
+      <div class="row">
+        <div class="col s12">
+          I
+          <div class="input-field inline">
+            <input id="name" type="text" class="validate" required>
+            <label for="name">Your Name</label>
           </div>
-        </div>
-        <div class="col s6">
-          <a href="tel:+917573043997">
-            <div class="card-panel purple darken-3">
-              <div class="row">
-                <div class="center">
-                  <img src="public/images/call.svg" alt="missed call" class="circle white" style="width:100px;height:100px;">
-                </div>
-                <h5 style="color: white" class="center">Call for Pledge</h5>
-                <h6 style="color: white" class="center">75730-43997</h6>
-              </div>
-            </div>
-          </a>
-
-        </div>
-      </div> -->
-    </div>
-    <div class="container" style="margin-top: 80px;">
-      <div class="row">
-        <div class="col s6">
-          <ul class="collection">
-            <a href="http://164.100.153.10/electoralroll/default.aspx">
-              <li class="collection-item">Know your EPIC</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col s6">
-          <ul class="collection">
-            <a href="blo.html">
-              <li class="collection-item">BLO Directory</li>
-            </a>
-          </ul>
+          , district Nagaur, Assembly
+          <div class="input-field inline">
+            <select id="assembly" required>
+              <option value="" disabled selected>Choose your option</option>
+              <option value="Jayal">Jayal</option>
+              <option value="Khinwsar">Khinwsar</option>
+              <option value="Makrana">Makrana</option>
+              <option value="Nawan">Nawan</option>
+              <option value="Ladnu">Ladnu</option>
+              <option value="Deedwana">Deedwana</option>
+              <option value="Nagaur">Nagaur</option>
+              <option value="Merta">Merta</option>
+              <option value="Degana">Degana</option>
+              <option value="Parbatsar">Parbatsar</option>
+            </select>
+          </div>
+          that i will cast my vote without fail on <span style="font-weight: bold"> 7th December, 2018</span>.
         </div>
       </div>
       <div class="row">
-        <div class="col s6">
-          <ul class="collection">
-            <a href="https://cvigil.eci.nic.in/">
-              <li class="collection-item">Grevience</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col s6">
-          <ul class="collection">
-            <a href="blo.html">
-              <li class="collection-item">Mock Demo</li>
-            </a>
-          </ul>
+        <div class="input-field col s6">
+          <input id="mobile" type="number" class="validate" required>
+          <label for="mobile">Mobile</label>
         </div>
       </div>
-      <div class="row">
-        <div class="col s6">
-          <ul class="collection">
-            <a href="#">
-              <li class="collection-item">Gallery</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col s6">
-          <ul class="collection">
-            <a href="blo.html">
-              <li class="collection-item">Events/News</li>
-            </a>
-          </ul>
-        </div>
+      <div class="center">
+        <button class="btn waves-effect waves-light" id="submitButton" type="submit" name="action">Submit
+          <i class="material-icons right">send</i>
+        </button>
       </div>
-      <div class="row">
-        <div class="col s6">
-          <ul class="collection">
-            <a href="http://164.100.153.10/electoralroll/default.aspx">
-              <li class="collection-item">Know your polling station</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col s6">
-          <ul class="collection">
-            <a href="blo.html">
-              <li class="collection-item">Important Contacts</li>
-            </a>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </main>
+    </form>
 
-  <footer class="page-footer red lighten-1 fixed">
-    <div class="row">
-      <div class="center col s3">
-        <a class="active" href="">
-          <i class="material-icons">home</i>
-          <p class="center" style="color:white">Home</p>
-          <hr style="color:white">
-        </a>
-      </div>
-      <div class="center col s3">
-        <a href="sveep.html" class="active">
-          <i class="material-icons">how_to_vote</i></a>
 
-        <p class="center">SVEEP</p>
-      </div>
-      <div class="center col s3">
-        <a href="" class="active"><i class="material-icons">poll</i></a>
-        <p class="center">Mock Poll</p>
-      </div>
-      <div class="center col s3">
-        <a href="" class="active"><i class="material-icons">link</i></a>
-        <p class="center">Quick Links</p>
-      </div>
-    </div>
-  </footer>
+  </div>
 
-  <!-- end of footer contents -->
 
-  <!--JavaScript at end of body for optimized loading-->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="public/js/jquery.min.js"></script>
+  <script src="public/js/materialize.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="public/js/datatable.js"></script>
+  <script src="public/js/firebase-app.js"></script>
+  <script src="public/js/firebase-firestore.js"></script>
+  <script src="public/js/sweetalert.min.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCugHpYcflBf9GF-_TpzbH-pBwgDdVER7M",
+      authDomain: "myvote-fa727.firebaseapp.com",
+      databaseURL: "https://myvote-fa727.firebaseio.com",
+      projectId: "myvote-fa727",
+      storageBucket: "myvote-fa727.appspot.com",
+      messagingSenderId: "900118311511"
+    };
+    firebase.initializeApp(config);
+    const db = firebase.firestore();
+    db.settings({
+      timestampsInSnapshots: true
+    })
+  </script>
+
   <script type="text/javascript">
     $(document).ready(function() {
-
-      $('.sidenav').sidenav();
-      $('.carousel.carousel-slider').carousel({
-        fullWidth: true,
-        indicators: true
-      });
-
+      $('select').formSelect();
     });
   </script>
   <script type="text/javascript">
-    const _MS_PER_DAY = 1000 * 60 * 60 * 24;
+    function submitHandler() {
+      document.getElementById("submitButton").innerText =" Loading...";
+      document.getElementById("submitButton").disabled = true;
+      var name = document.getElementById('name').value
+      var district = "Nagaur";
+      var f = document.getElementById('assembly');
+      var assembly = f.options[f.selectedIndex].value;
+      var mobile = document.getElementById('mobile').value;
+      var votersCount = null;
+      db.collection('voters').add({
+        "name": name,
+        "district": district,
+        "assembly": assembly,
+        "mobile": mobile
+      })
 
-    // a and b are javascript Date objects
-    function dateDiffInDays(a, b) {
-      // Discard the time and time-zone information.
-      const utc1 = Date.UTC(a.getFullYear(), a.getMonth(), a.getDate());
-      const utc2 = Date.UTC(b.getFullYear(), b.getMonth(), b.getDate());
-
-      return Math.floor((utc2 - utc1) / _MS_PER_DAY);
-    }
-
-    // test it
-    const electionDate = new Date("2018-12-07"),
-      today = new Date(),
-      daysLeft = dateDiffInDays(today, electionDate);
-    if (daysLeft >= 0) {
-      if (daysLeft > 1) {
-        document.getElementById('dayNotify').innerHTML = daysLeft + ' days left until voting'
-      }
-      if (daysLeft === 1) {
-        document.getElementById('dayNotify').innerHTML = daysLeft + ' day left until voting'
-      }
-      if (daysLeft === 0) {
-        document.getElementById('dayNotify').innerHTML = 'Cast your vote today !'
-      }
-    } else {
-      document.getElementById('dayNotify').innerHTML = 'Thanks for casting your vote'
+      db.collection('voters').get().then((snapshot) => {
+        votersCount = snapshot.docs.length;
+        function ordinal_suffix_of(i) {
+          var j = i % 10,
+            k = i % 100;
+          if (j == 1 && k != 11) {
+            return i + "st";
+          }
+          if (j == 2 && k != 12) {
+            return i + "nd";
+          }
+          if (j == 3 && k != 13) {
+            return i + "rd";
+          }
+          return i + "th";
+        }
+        var swalContent = "You are "+ ordinal_suffix_of(votersCount) +" voter who have pledged. " + "\n Well Done !"
+        swal({
+          title: swalContent,
+          allowOutsideClick: false
+        }).then(function() {
+          window.location = "home.html";
+        });
+      });
+      return false;
     }
   </script>
-
+  <script type="text/javascript">
+    setInterval(function(){
+    if(navigator.onLine){
+    }else{
+        swal({title: "No internet connection"});
+    }
+},1000);
+  </script>
 </body>
 
 </html>

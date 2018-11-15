@@ -15,6 +15,10 @@ main {
   padding-top: 15px;
 }
 
+.sidenav-overlay {
+z-index: 989;
+}
+
 footer {
   bottom: 0;
   left: 0;
@@ -185,7 +189,7 @@ table.dataTable thead .sorting_desc_disabled:after {
 }
 .centered {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -199,4 +203,8 @@ table.dataTable thead .sorting_desc_disabled:after {
   font-weight: bold;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.dayBold{
+  font-weight: bolder;
 }
