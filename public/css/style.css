@@ -207,4 +207,9 @@ table.dataTable thead .sorting_desc_disabled:after {
 
 .dayBold{
   font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.linkColor{
+  color: white;
 }
