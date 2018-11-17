@@ -81,7 +81,7 @@
         <button type="submit" class="waves-effect waves-light btn-large red lighten-1" ng-click="submitSearch()">Search</button>
       </div>
     </form>
-    <div ng-hide="showSearch">
+    <div ng-if="showDEO">
       <div class="col 12"><input type="text" ng-model="search.$" placeholder="Search by any field"></div>
       <div class="col s12" ng-repeat="deo in deoData | filter:search:strict">
         <div ng-class-odd="'card horizontal purple darken-2'" ng-class-even="'card horizontal pink darken-2'">
@@ -112,6 +112,31 @@
         </div>
       </div>
     </div>
+
+    <!-- Flying squad listing and search  -->
+
+    <div ng-if="showSquad">
+      <div class="col 12"><input type="text" ng-model="search.$" placeholder="Search by any field"></div>
+      <div class="col s12" ng-repeat="squad in squadData | filter:search:strict">
+        <div ng-class-odd="'card horizontal purple darken-2'" ng-class-even="'card horizontal pink darken-2'">
+          <div class="container center white-text">
+            <h6 style="font-weight:800">{{squad.squad}}</h6>
+            <div class="row" style="margin-top:-10px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Designation:</span> {{squad.designation}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Mobile:</span> <a ng-href="tel:{{squad.mobile}}">{{squad.mobile}}</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
 
 
   </main>
