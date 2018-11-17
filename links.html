@@ -147,7 +147,17 @@
   <script type="text/javascript">
     $(document).ready(function() {
       $('.materialbox').materialbox();
-      $('.sidenav').sidenav();
+    });
+  </script>
+  <script type="text/javascript">
+    document.addEventListener('turbolinks:load', function() {
+      elem = document.querySelector('#mobile-demo');
+      instance = new M.Sidenav(elem, {});
+    });
+    document.addEventListener('turbolinks:before-visit', function() {
+      elem = document.querySelector('#mobile-demo');
+      instance = M.Sidenav.getInstance(elem);
+      instance.destroy();
     });
   </script>
 </body>

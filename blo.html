@@ -150,6 +150,8 @@
   <script type="text/javascript">
     var bloTable = null;
     document.addEventListener("turbolinks:load", function() {
+      elem = document.querySelector('#mobile-demo');
+      instance = new M.Sidenav(elem, {});
       if (bloTable != null) {
         bloTable.destroy();
       }
@@ -191,9 +193,17 @@
 
       }
     });
-    document.addEventListener("turbolinks:before-cache", function () {
+
+    document.addEventListener('turbolinks:before-visit', function() {
+      console.log('destroyed blo');
+      elem = document.querySelector('#mobile-demo');
+      instance = M.Sidenav.getInstance(elem);
+      instance.destroy();
+    });
+
+    document.addEventListener("turbolinks:before-cache", function() {
       if ($('#blo-table_wrapper').length == 1)
-      bloTable.destroy()
+        bloTable.destroy()
     })
   </script>
 
