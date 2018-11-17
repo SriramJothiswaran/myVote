@@ -82,6 +82,8 @@
       </div>
     </form>
     <div ng-if="showDEO">
+      <br>
+      <button class="waves-effect waves-light btn-small white" ng-click="goSearch()"><span class="blue-text"><i class="material-icons left">arrow_back_ios</i>back</span></button>
       <div class="col 12"><input type="text" ng-model="search.$" placeholder="Search by any field"></div>
       <div class="col s12" ng-repeat="deo in deoData | filter:search:strict">
         <div ng-class-odd="'card horizontal purple darken-2'" ng-class-even="'card horizontal pink darken-2'">
@@ -116,6 +118,8 @@
     <!-- Flying squad listing and search  -->
 
     <div ng-if="showSquad">
+      <br>
+      <button class="waves-effect waves-light btn-small white" ng-click="goSearch()"><span class="blue-text"><i class="material-icons left">arrow_back_ios</i>back</span></button>
       <div class="col 12"><input type="text" ng-model="search.$" placeholder="Search by any field"></div>
       <div class="col s12" ng-repeat="squad in squadData | filter:search:strict">
         <div ng-class-odd="'card horizontal purple darken-2'" ng-class-even="'card horizontal pink darken-2'">
@@ -142,6 +146,8 @@
     <!-- Sector officer listing and search -->
 
     <div ng-if="showSector">
+      <br>
+      <button class="waves-effect waves-light btn-small white" ng-click="goSearch()"><span class="blue-text"><i class="material-icons left">arrow_back_ios</i>back</span></button>
       <div class="col 12"><input type="text" ng-model="search.$" placeholder="Search by any field"></div>
       <div class="col s12" ng-repeat="sector in sectorData | filter:search:strict">
         <div ng-class-odd="'card horizontal purple darken-2'" ng-class-even="'card horizontal pink darken-2'">
@@ -173,6 +179,8 @@
     <!-- Observer officer listing and search -->
 
     <div ng-if="showObserver">
+      <br>
+      <button class="waves-effect waves-light btn-small white" ng-click="goSearch()"><span class="blue-text"><i class="material-icons left">arrow_back_ios</i>back</span></button>
       <div class="col 12"><input type="text" ng-model="search.$" placeholder="Search by any field"></div>
       <div class="col s12" ng-repeat="observer in observerData | filter:search:strict">
         <div ng-class-odd="'card horizontal purple darken-2'" ng-class-even="'card horizontal pink darken-2'">
@@ -199,7 +207,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>

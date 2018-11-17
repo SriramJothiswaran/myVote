@@ -77,5 +77,13 @@ app.controller('myCtrl', function($scope, $http) {
 
   }
 
+  $scope.goSearch = function(){
+    $scope.showObserver = false;
+    $scope.showSector = false;
+    $scope.showSquad = false;
+    $scope.showDEO = false;
+    $scope.showSearch = true;
+  }
+
 
 });
