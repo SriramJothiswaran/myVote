@@ -212,6 +212,82 @@
     </div>
 
 
+    <!-- BLO officer listing and search -->
+
+
+    <div ng-if="showBLO">
+      <br>
+      <button class="waves-effect waves-light btn-small white" ng-click="goSearch()"><span class="blue-text"><i class="material-icons left">arrow_back_ios</i>back</span></button>
+      <div class="col 12"><input type="text" ng-model="search.$" placeholder="Search by any field"></div>
+      <div class="col s12" ng-repeat="blo in bloData | filter:search:strict">
+        <div ng-class-odd="'card horizontal purple darken-2'" ng-class-even="'card horizontal pink darken-2'">
+          <div class="container center white-text">
+            <h6 style="font-weight:800">{{blo.bloName  || "not available"}}</h6>
+            <div class="row" style="margin-top:-10px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Voting Building:</span> {{blo.votingBuilding || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Polling Station Number:</span> {{blo.pollingStationNumber || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Designation:</span> {{blo.designation || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Mobile:</span> <a ng-href="tel:{{blo.mobile}}">{{blo.mobile || "not available"}}</a></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Supervisor  listing and search -->
+
+
+    <div ng-if="showSupervisor">
+      <br>
+      <button class="waves-effect waves-light btn-small white" ng-click="goSearch()"><span class="blue-text"><i class="material-icons left">arrow_back_ios</i>back</span></button>
+      <div class="col 12"><input type="text" ng-model="search.$" placeholder="Search by any field"></div>
+      <div class="col s12" ng-repeat="supervisor in supervisorData | filter:search:strict">
+        <div ng-class-odd="'card horizontal purple darken-2'" ng-class-even="'card horizontal pink darken-2'">
+          <div class="container center white-text">
+            <h6 style="font-weight:800">{{supervisor.supervisor  || "not available"}}</h6>
+            <div class="row" style="margin-top:-10px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Voting Building:</span> {{supervisor.votingBuilding || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Polling Station Number:</span> {{supervisor.pollingStationNumber || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Designation:</span> {{supervisor.supervisorDesignation || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Mobile:</span> <a ng-href="tel:{{supervisor.supervisorMobile}}">{{supervisor.supervisorMobile || "not available"}}</a></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 
 
   </main>
