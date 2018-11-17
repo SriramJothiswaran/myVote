@@ -1,0 +1,1973 @@
+[
+ {
+   "sno": "1",
+   "assembly": "Ladnu",
+   "sector": "1",
+   "name": "श्री सुशील कुमार गिरधर",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि धोलिया",
+   "mobile": "9414961641"
+ },
+ {
+   "sno": "2",
+   "assembly": "Ladnu",
+   "sector": "2",
+   "name": "श्री अर्जुनसिंह राणा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., बाकलिया",
+   "mobile": "9468719491"
+ },
+ {
+   "sno": "3",
+   "assembly": "Ladnu",
+   "sector": "3",
+   "name": "श्री राजेन्द्र प्रसाद वर्मा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., चन्द्राई",
+   "mobile": "9468687814"
+ },
+ {
+   "sno": "4",
+   "assembly": "Ladnu",
+   "sector": "4",
+   "name": "श्री कल्याणमल सैनी",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., छप्पारा",
+   "mobile": "9461269628"
+ },
+ {
+   "sno": "5",
+   "assembly": "Ladnu",
+   "sector": "5",
+   "name": "श्री रामनिवास बिडियासर",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., ढिगसरी",
+   "mobile": "9783880077"
+ },
+ {
+   "sno": "6",
+   "assembly": "Ladnu",
+   "sector": "6",
+   "name": "श्री चन्द्र सिंह",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि मिठड़ी",
+   "mobile": "9828610695"
+ },
+ {
+   "sno": "7",
+   "assembly": "Ladnu",
+   "sector": "7",
+   "name": "श्री गजाधर प्रसाद शर्मा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., घिरडोदा मीठा",
+   "mobile": "9983567563"
+ },
+ {
+   "sno": "8",
+   "assembly": "Ladnu",
+   "sector": "8",
+   "name": "श्री तुलछाराम",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., लाछडी",
+   "mobile": "9460642648"
+ },
+ {
+   "sno": "9",
+   "assembly": "Ladnu",
+   "sector": "9",
+   "name": "श्री जगवीरसिंह",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि रताउ",
+   "mobile": "9828849388"
+ },
+ {
+   "sno": "10",
+   "assembly": "Ladnu",
+   "sector": "10",
+   "name": "श्री भंवरलाल जंागिड़",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., ध्यावा",
+   "mobile": "9413981336"
+ },
+ {
+   "sno": "11",
+   "assembly": "Ladnu",
+   "sector": "11",
+   "name": "श्री अगमचन्द शर्मा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., हुडास",
+   "mobile": "9462362702"
+ },
+ {
+   "sno": "12",
+   "assembly": "Ladnu",
+   "sector": "12",
+   "name": "श्री महेन्द्रसिह यादव",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., सींवा",
+   "mobile": "9413642273"
+ },
+ {
+   "sno": "13",
+   "assembly": "Ladnu",
+   "sector": "13",
+   "name": "श्री पूर्णाराम बावरी",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., तंवरा",
+   "mobile": "9414945516"
+ },
+ {
+   "sno": "14",
+   "assembly": "Ladnu",
+   "sector": "14",
+   "name": "श्री जयपाल",
+   "designation": "प्रधानाचार्य",
+   "place": "मंगलपुरा",
+   "mobile": "9828893945"
+ },
+ {
+   "sno": "15",
+   "assembly": "Ladnu",
+   "sector": "15",
+   "name": "श्री दाउद अली खान",
+   "designation": "अधि. अभि.",
+   "place": "जलदाय वि. डीडवाना",
+   "mobile": "9414548316"
+ },
+ {
+   "sno": "16",
+   "assembly": "Ladnu",
+   "sector": "16",
+   "name": "श्री जेपी यादव",
+   "designation": "अधि. अभि.",
+   "place": "सानिवि डीडवाना",
+   "mobile": "9799298171"
+ },
+ {
+   "sno": "17",
+   "assembly": "Ladnu",
+   "sector": "आर-1",
+   "name": "श्री अशोक कुमार",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि जसवन्तगढ",
+   "mobile": "8432779625"
+ },
+ {
+   "sno": "18",
+   "assembly": "Ladnu",
+   "sector": "आर-2",
+   "name": "श्री नेमाराम चाहर",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि ध्यावा",
+   "mobile": "9549307656"
+ },
+ {
+   "sno": "19",
+   "assembly": "Deedwana",
+   "sector": "1",
+   "name": "श्री नवीन राकेश मांजू",
+   "designation": "ए0ई0एन0",
+   "place": "जलग्रहण वि. डीडवाना",
+   "mobile": "9680933643"
+ },
+ {
+   "sno": "20",
+   "assembly": "Deedwana",
+   "sector": "2",
+   "name": "श्री पुसागिरी",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि आगुन्ता",
+   "mobile": "9413679678"
+ },
+ {
+   "sno": "21",
+   "assembly": "Deedwana",
+   "sector": "3",
+   "name": "श्री नवीन कुमार दास",
+   "designation": "व्याख्याता",
+   "place": "राज.बांगड़ महा., डीडवाना",
+   "mobile": "9414921013"
+ },
+ {
+   "sno": "22",
+   "assembly": "Deedwana",
+   "sector": "4",
+   "name": "श्री अजय कुमार गौतम",
+   "designation": "व्याख्याता",
+   "place": "राज.बांगड़ महा., डीडवाना",
+   "mobile": "9414368930"
+ },
+ {
+   "sno": "23",
+   "assembly": "Deedwana",
+   "sector": "5",
+   "name": "श्री कन्हैयालाल अग्रवाल",
+   "designation": "व्याख्याता",
+   "place": "राउमावि डाबड़ा",
+   "mobile": "8003188395"
+ },
+ {
+   "sno": "24",
+   "assembly": "Deedwana",
+   "sector": "6",
+   "name": "श्री भगवानाराम प्रजापत",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि शेरानीआबाद",
+   "mobile": "9461124068"
+ },
+ {
+   "sno": "25",
+   "assembly": "Deedwana",
+   "sector": "7",
+   "name": "श्री रामकृष्ण आचार्य",
+   "designation": "व्याख्याता",
+   "place": "राउमावि लाडारामसा",
+   "mobile": "9461124205"
+ },
+ {
+   "sno": "26",
+   "assembly": "Deedwana",
+   "sector": "8",
+   "name": "डॉ जहागीर रहमान कुरैशी",
+   "designation": "व्याख्याता",
+   "place": "राज.बांगड़ महा., डीडवाना",
+   "mobile": "9414587304"
+ },
+ {
+   "sno": "27",
+   "assembly": "Deedwana",
+   "sector": "9",
+   "name": "डॉ अरूण व्यास",
+   "designation": "व्याख्याता",
+   "place": "राज.बांगड़ महा., डीडवाना",
+   "mobile": "9460891796"
+ },
+ {
+   "sno": "28",
+   "assembly": "Deedwana",
+   "sector": "10",
+   "name": "श्री हबीब खान",
+   "designation": "व्याख्याता",
+   "place": "राज.बांगड़ महा., डीडवाना",
+   "mobile": "8875650191"
+ },
+ {
+   "sno": "29",
+   "assembly": "Deedwana",
+   "sector": "11",
+   "name": "डॉ इरसाद अली खां",
+   "designation": "व्याख्याता",
+   "place": "राज.बांगड़ महा., डीडवाना",
+   "mobile": "9414587704"
+ },
+ {
+   "sno": "30",
+   "assembly": "Deedwana",
+   "sector": "12",
+   "name": "श्री चैनाराम",
+   "designation": "व्याख्याता",
+   "place": "राज.बांगड़ महा., डीडवाना",
+   "mobile": "9982132638"
+ },
+ {
+   "sno": "31",
+   "assembly": "Deedwana",
+   "sector": "13",
+   "name": "श्री अनिल कुमार करोल",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि थाणु",
+   "mobile": "9001315455"
+ },
+ {
+   "sno": "32",
+   "assembly": "Deedwana",
+   "sector": "14",
+   "name": "श्री सुखाराम",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि मामड़ोदा",
+   "mobile": "9783978586"
+ },
+ {
+   "sno": "33",
+   "assembly": "Deedwana",
+   "sector": "15",
+   "name": "श्री अरूण सिन्हा",
+   "designation": "व्याख्याता",
+   "place": "राज.बांगड़ महा., डीडवाना",
+   "mobile": "9414812960"
+ },
+ {
+   "sno": "34",
+   "assembly": "Deedwana",
+   "sector": "16",
+   "name": "डॉ अजय शर्मा",
+   "designation": "व्याख्याता",
+   "place": "राज.बांगड़ महा., डीडवाना",
+   "mobile": "9414500646"
+ },
+ {
+   "sno": "35",
+   "assembly": "Deedwana",
+   "sector": "17",
+   "name": "श्री प्रकाश गर्ग",
+   "designation": "व्याख्याता",
+   "place": "राज.बांगड़ महा., डीडवाना",
+   "mobile": "7790966369"
+ },
+ {
+   "sno": "36",
+   "assembly": "Deedwana",
+   "sector": "18",
+   "name": "श्री तेजाराम जाखड़",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि मण्डुकरा",
+   "mobile": "9460756572"
+ },
+ {
+   "sno": "37",
+   "assembly": "Deedwana",
+   "sector": "19",
+   "name": "श्री राजेन्द्र कुमार",
+   "designation": "ए0ई0एन0",
+   "place": "सा. नि. वि., डीडवाना",
+   "mobile": "9414446076"
+ },
+ {
+   "sno": "38",
+   "assembly": "Deedwana",
+   "sector": "20",
+   "name": "श्री बलविन्द्र सिंह",
+   "designation": "ए0ई0एन0",
+   "place": "जलदाय वि. डीडवाना",
+   "mobile": "9114548268"
+ },
+ {
+   "sno": "39",
+   "assembly": "Deedwana",
+   "sector": "21",
+   "name": "श्रीदीनदयाल",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि कलवानी",
+   "mobile": "9672819346"
+ },
+ {
+   "sno": "40",
+   "assembly": "Deedwana",
+   "sector": "22",
+   "name": "श्री गणपतराम जांगिड़",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि दौलतपुरा",
+   "mobile": "9461289587"
+ },
+ {
+   "sno": "41",
+   "assembly": "Deedwana",
+   "sector": "आर-1",
+   "name": "श्रीकिशोरकुमारस्वामी",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि चैलुखां",
+   "mobile": "9460651817"
+ },
+ {
+   "sno": "42",
+   "assembly": "Deedwana",
+   "sector": "आर-2",
+   "name": "श्रीसुरेशलखारा",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि सानियाँ",
+   "mobile": "9828064418"
+ },
+ {
+   "sno": "43",
+   "assembly": "Jayal",
+   "sector": "1",
+   "name": "श्री हरिराम यादव",
+   "designation": "प्रधानाध्यापक",
+   "place": "रा.मा.वि., मेरवास",
+   "mobile": "9460544073"
+ },
+ {
+   "sno": "44",
+   "assembly": "Jayal",
+   "sector": "2",
+   "name": "श्री लक्ष्मणसिंह",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., खाटूकलां",
+   "mobile": "9460622730"
+ },
+ {
+   "sno": "45",
+   "assembly": "Jayal",
+   "sector": "3",
+   "name": "श्री पुनाराम सांगवा",
+   "designation": "प्रधानाध्यापक",
+   "place": "रा.बा.मा.वि., डेह",
+   "mobile": "8107215270"
+ },
+ {
+   "sno": "46",
+   "assembly": "Jayal",
+   "sector": "4",
+   "name": "श्री बस्तीराम सांगवा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., फरड़ोद",
+   "mobile": "9414956195"
+ },
+ {
+   "sno": "47",
+   "assembly": "Jayal",
+   "sector": "5",
+   "name": "श्री मूलचंद रेगर",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., बरनेल",
+   "mobile": "9982793373"
+ },
+ {
+   "sno": "48",
+   "assembly": "Jayal",
+   "sector": "6",
+   "name": "श्री राकेश कुमार",
+   "designation": "व्याख्याता",
+   "place": "राज. महा.वि जायल",
+   "mobile": "9461508651"
+ },
+ {
+   "sno": "49",
+   "assembly": "Jayal",
+   "sector": "7",
+   "name": "श्री चेनाराम महेला",
+   "designation": "कार्य. प्राचार्य",
+   "place": "राज. महा.वि जायल",
+   "mobile": "7665351760"
+ },
+ {
+   "sno": "50",
+   "assembly": "Jayal",
+   "sector": "8",
+   "name": "श्री दयानन्द सिंह",
+   "designation": "व्याख्याता",
+   "place": "राउमावि खिंयाला",
+   "mobile": "9413722483"
+ },
+ {
+   "sno": "51",
+   "assembly": "Jayal",
+   "sector": "9",
+   "name": "श्री लक्ष्मीनारायण दरिया",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., भावला",
+   "mobile": "9680624850"
+ },
+ {
+   "sno": "52",
+   "assembly": "Jayal",
+   "sector": "10",
+   "name": "श्री मोहनलाल",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., छापड़ा",
+   "mobile": "9414445213, 6350382682"
+ },
+ {
+   "sno": "53",
+   "assembly": "Jayal",
+   "sector": "11",
+   "name": "श्री हनुमान यादव",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., ढेहरी",
+   "mobile": "9694018752"
+ },
+ {
+   "sno": "54",
+   "assembly": "Jayal",
+   "sector": "12",
+   "name": "श्री हरिप्रसाद स्वामी",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., दुगस्ताऊ",
+   "mobile": "9309095195"
+ },
+ {
+   "sno": "55",
+   "assembly": "Jayal",
+   "sector": "13",
+   "name": "श्री नरपतराम",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., दुगोली",
+   "mobile": "9783099767"
+ },
+ {
+   "sno": "56",
+   "assembly": "Jayal",
+   "sector": "14",
+   "name": "श्री बुधकरण पारीक",
+   "designation": "प्रधानाचार्य",
+   "place": "मु ब्लाॅक शि अधि जायल",
+   "mobile": "9461300503"
+ },
+ {
+   "sno": "57",
+   "assembly": "Jayal",
+   "sector": "15",
+   "name": "श्री जगदीष बाना",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., खेराट",
+   "mobile": "9982322830"
+ },
+ {
+   "sno": "58",
+   "assembly": "Jayal",
+   "sector": "16",
+   "name": "श्री अर्जुन राम डूकिया",
+   "designation": "प्रधानाचार्य",
+   "place": "शहीद मूलाराम रा.उ.मा.वि. कठौती",
+   "mobile": "9460162727"
+ },
+ {
+   "sno": "59",
+   "assembly": "Jayal",
+   "sector": "17",
+   "name": "श्री अखराज पारीक",
+   "designation": "कार्यवाहक प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., सांडिला",
+   "mobile": "9982783942"
+ },
+ {
+   "sno": "60",
+   "assembly": "Jayal",
+   "sector": "18",
+   "name": "श्री नन्दलाल वर्मा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., कमेड़िया",
+   "mobile": "9772501596"
+ },
+ {
+   "sno": "61",
+   "assembly": "Jayal",
+   "sector": "आर-1",
+   "name": "श्रीअनिलकुमार",
+   "designation": "व्याख्याता",
+   "place": "राज.बांगड़ महा., डीडवाना",
+   "mobile": "9414853577"
+ },
+ {
+   "sno": "62",
+   "assembly": "Jayal",
+   "sector": "आर-2",
+   "name": "श्री अनिल कुमार जेवरिया",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि. जायल",
+   "mobile": "9829576436"
+ },
+ {
+   "sno": "63",
+   "assembly": "Nagaur",
+   "sector": "1",
+   "name": "डॉ मंगलाराम कडवासरा",
+   "designation": "सह आचार्य",
+   "place": "श्री बी.आर.मिर्धा. राज महाविघालय, नागौर",
+   "mobile": "9414924212"
+ },
+ {
+   "sno": "64",
+   "assembly": "Nagaur",
+   "sector": "2",
+   "name": "डॉ शंकर राम जाखड",
+   "designation": "सह आचार्य",
+   "place": "श्री बी.आर.मिर्धा. राज महाविघालय, नागौर",
+   "mobile": "9460221924"
+ },
+ {
+   "sno": "65",
+   "assembly": "Nagaur",
+   "sector": "3",
+   "name": "डॉ हरसुख छरंग",
+   "designation": "सह आचार्य",
+   "place": "श्री बी.आर.मिर्धा. राज महाविघालय, नागौर",
+   "mobile": "9828615003"
+ },
+ {
+   "sno": "66",
+   "assembly": "Nagaur",
+   "sector": "4",
+   "name": "श्री अखिल अग्रवाल",
+   "designation": "व. क्षे. प्रबंधक",
+   "place": "रिको नागौर",
+   "mobile": "9414041306"
+ },
+ {
+   "sno": "67",
+   "assembly": "Nagaur",
+   "sector": "5",
+   "name": "प्रो हरिसिंह मीणा",
+   "designation": "सह आचार्य",
+   "place": "श्री बी.आर.मिर्धा. राज महाविघालय, नागौर",
+   "mobile": "9413202201"
+ },
+ {
+   "sno": "68",
+   "assembly": "Nagaur",
+   "sector": "6",
+   "name": "डॉ रणजीत पूनिया",
+   "designation": "सह आचार्य",
+   "place": "श्री बी.आर.मिर्धा. राज महाविघालय, नागौर",
+   "mobile": "9414350211"
+ },
+ {
+   "sno": "69",
+   "assembly": "Nagaur",
+   "sector": "7",
+   "name": "डॉ मनीष जोषी",
+   "designation": "सह आचार्य",
+   "place": "श्री बी.आर.मिर्धा. राज महाविघालय, नागौर",
+   "mobile": "9414350189"
+ },
+ {
+   "sno": "70",
+   "assembly": "Nagaur",
+   "sector": "8",
+   "name": "डॉ पे्रम सिंह बुगासरा",
+   "designation": "सह आचार्य",
+   "place": "श्री बी.आर.मिर्धा. राज महाविघालय, नागौर",
+   "mobile": "9414244431"
+ },
+ {
+   "sno": "71",
+   "assembly": "Nagaur",
+   "sector": "9",
+   "name": "प्रो सुरेन्द्र कागट",
+   "designation": "सह आचार्य",
+   "place": "श्री बी.आर.मिर्धा. राज महाविघालय, नागौर",
+   "mobile": "9829859891"
+ },
+ {
+   "sno": "72",
+   "assembly": "Nagaur",
+   "sector": "10",
+   "name": "डॉ प्रकाष नारायण",
+   "designation": "सह आचार्य",
+   "place": "श्री बी.आर.मिर्धा. राज महाविघालय, नागौर",
+   "mobile": "9414327372"
+ },
+ {
+   "sno": "73",
+   "assembly": "Nagaur",
+   "sector": "11",
+   "name": "प्रो सुखराज पुनड",
+   "designation": "सह आचार्य",
+   "place": "श्री बी.आर.मिर्धा. राज महाविघालय, नागौर",
+   "mobile": "9460544051"
+ },
+ {
+   "sno": "74",
+   "assembly": "Nagaur",
+   "sector": "12",
+   "name": "श्री गोविन्दराम",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि चूंटिसरा",
+   "mobile": "9460035145"
+ },
+ {
+   "sno": "75",
+   "assembly": "Nagaur",
+   "sector": "13",
+   "name": "प्रो भेरूप्रकाष नवल",
+   "designation": "सह आचार्य",
+   "place": "श्री बी.आर.मिर्धा. राज महाविघालय, नागौर",
+   "mobile": "9414342765"
+ },
+ {
+   "sno": "76",
+   "assembly": "Nagaur",
+   "sector": "14",
+   "name": "डॉ हेमाराम",
+   "designation": "सह आचार्य",
+   "place": "श्री बी.आर.मिर्धा. राज महाविघालय, नागौर",
+   "mobile": "9887539770"
+ },
+ {
+   "sno": "77",
+   "assembly": "Nagaur",
+   "sector": "15",
+   "name": "प्रोभूपेष",
+   "designation": "सह आचार्य",
+   "place": "श्री बी.आर.मिर्धा. राज महाविघालय, नागौर",
+   "mobile": "9460035510"
+ },
+ {
+   "sno": "78",
+   "assembly": "Nagaur",
+   "sector": "16",
+   "name": "डॉ ओ पी दवे",
+   "designation": "सह आचार्य",
+   "place": "श्री बी.आर.मिर्धा. राज महाविघालय, नागौर",
+   "mobile": "9829498434"
+ },
+ {
+   "sno": "79",
+   "assembly": "Nagaur",
+   "sector": "17",
+   "name": "डॉ आर के माहेष्वरी",
+   "designation": "सह आचार्य",
+   "place": "श्री बी.आर.मिर्धा. राज महाविघालय, नागौर",
+   "mobile": "7976461580"
+ },
+ {
+   "sno": "80",
+   "assembly": "Nagaur",
+   "sector": "18",
+   "name": "श्री प्रहलाद राय",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि झूझण्डा",
+   "mobile": "8696769727"
+ },
+ {
+   "sno": "81",
+   "assembly": "Nagaur",
+   "sector": "19",
+   "name": "श्री मांगीराल मण्डावत",
+   "designation": "सहा प्रबन्धक",
+   "place": "राज वित्त निगम, (मकराना) नागौर",
+   "mobile": "9414097654"
+ },
+ {
+   "sno": "82",
+   "assembly": "Nagaur",
+   "sector": "20",
+   "name": "श्री रामावतार चिनिया",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि रोहिणी",
+   "mobile": "9983719351"
+ },
+ {
+   "sno": "83",
+   "assembly": "Nagaur",
+   "sector": "21",
+   "name": "श्री शभ्भू दयाल गोदारा",
+   "designation": "अधिषाषी अभियन्ता",
+   "place": "जलदाय विभाग, नागौर",
+   "mobile": "9461249797"
+ },
+ {
+   "sno": "84",
+   "assembly": "Nagaur",
+   "sector": "22",
+   "name": "श्री अमेदाराम मेघवाल",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि सथेरण",
+   "mobile": "9468910780"
+ },
+ {
+   "sno": "85",
+   "assembly": "Nagaur",
+   "sector": "आर-1",
+   "name": "श्रीशंकरलालशर्मा",
+   "designation": "प्रधानाचार्य",
+   "place": "सेकिलाकां राउमावि नागौर",
+   "mobile": "9460222892"
+ },
+ {
+   "sno": "86",
+   "assembly": "Nagaur",
+   "sector": "आर-2",
+   "name": "डॉ महेन्द्र सिंह राठोड़",
+   "designation": "सह आचार्य",
+   "place": "श्री बी.आर.मिर्धा. राज महाविघालय, नागौर",
+   "mobile": "9414477968"
+ },
+ {
+   "sno": "87",
+   "assembly": "Khinwsar",
+   "sector": "1",
+   "name": "श्री दल श्रंृगार",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., खींवसर",
+   "mobile": "9413424784"
+ },
+ {
+   "sno": "88",
+   "assembly": "Khinwsar",
+   "sector": "2",
+   "name": "श्री प्रेमप्रकाष मिश्र",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., खजवाना",
+   "mobile": "8005545348"
+ },
+ {
+   "sno": "89",
+   "assembly": "Khinwsar",
+   "sector": "3",
+   "name": "श्रीसुभाषचन्द",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., दातीणा",
+   "mobile": "9001276367"
+ },
+ {
+   "sno": "90",
+   "assembly": "Khinwsar",
+   "sector": "4",
+   "name": "श्री होषियार सिंह",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., देउ",
+   "mobile": "9460010040"
+ },
+ {
+   "sno": "91",
+   "assembly": "Khinwsar",
+   "sector": "5",
+   "name": "श्री संजय कुमार सोमरा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., बिरलोका",
+   "mobile": "9462323283"
+ },
+ {
+   "sno": "92",
+   "assembly": "Khinwsar",
+   "sector": "6",
+   "name": "श्री रमेषचन्द",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., करणू",
+   "mobile": "7732964643ए 7023730670"
+ },
+ {
+   "sno": "93",
+   "assembly": "Khinwsar",
+   "sector": "7",
+   "name": "श्री विक्रमसिंह",
+   "designation": "व्याख्याता",
+   "place": "राउमावि चावण्डिया",
+   "mobile": "9910902452"
+ },
+ {
+   "sno": "94",
+   "assembly": "Khinwsar",
+   "sector": "8",
+   "name": "श्री नरेन्द्र बापेडिया",
+   "designation": "सचिव",
+   "place": "नगर परिषद्, नागौर",
+   "mobile": "9636011239"
+ },
+ {
+   "sno": "95",
+   "assembly": "Khinwsar",
+   "sector": "9",
+   "name": "श्री तेजाराम भाम्बू",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., भोमासर",
+   "mobile": "9571336890"
+ },
+ {
+   "sno": "96",
+   "assembly": "Khinwsar",
+   "sector": "10",
+   "name": "श्री सन्तलाल",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., ढिगसरा",
+   "mobile": "9829600248"
+ },
+ {
+   "sno": "97",
+   "assembly": "Khinwsar",
+   "sector": "11",
+   "name": "श्री घनष्याम",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., गुढा भगवानदास",
+   "mobile": "9982336163"
+ },
+ {
+   "sno": "98",
+   "assembly": "Khinwsar",
+   "sector": "12",
+   "name": "श्री नथमल सारस्वत",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि.,  पाचोडी",
+   "mobile": "9667182324"
+ },
+ {
+   "sno": "99",
+   "assembly": "Khinwsar",
+   "sector": "13",
+   "name": "श्री बजरंगलाल कडवासरा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., पाबूसर",
+   "mobile": "9460227762"
+ },
+ {
+   "sno": "100",
+   "assembly": "Khinwsar",
+   "sector": "14",
+   "name": "श्री जयकिषन जोषी",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., चावडिया",
+   "mobile": "9983569324"
+ },
+ {
+   "sno": "101",
+   "assembly": "Khinwsar",
+   "sector": "15",
+   "name": "श्री नाथूराम प्रजापत",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., आकंला",
+   "mobile": "8875797470"
+ },
+ {
+   "sno": "102",
+   "assembly": "Khinwsar",
+   "sector": "16",
+   "name": "श्री सांवलराम सुथार",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., डेहरू",
+   "mobile": "9413748151"
+ },
+ {
+   "sno": "103",
+   "assembly": "Khinwsar",
+   "sector": "17",
+   "name": "श्री लीलाराम",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., कांटिया",
+   "mobile": "9980571743"
+ },
+ {
+   "sno": "104",
+   "assembly": "Khinwsar",
+   "sector": "18",
+   "name": "श्री चुतराराम",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि कुड़छी",
+   "mobile": "9602131424"
+ },
+ {
+   "sno": "105",
+   "assembly": "Khinwsar",
+   "sector": "19",
+   "name": "श्री रोहित खारिया",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., नागडी",
+   "mobile": "9887423930"
+ },
+ {
+   "sno": "106",
+   "assembly": "Khinwsar",
+   "sector": "20",
+   "name": "श्री रामनिवास",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि सुखोलाव",
+   "mobile": "9413368149"
+ },
+ {
+   "sno": "107",
+   "assembly": "Khinwsar",
+   "sector": "21",
+   "name": "श्री रूपाराम",
+   "designation": "व्याख्याता",
+   "place": "राउमावि भावण्डा",
+   "mobile": "9413657779"
+ },
+ {
+   "sno": "108",
+   "assembly": "Khinwsar",
+   "sector": "आर-1",
+   "name": "श्री दिलीप कुमार",
+   "designation": "प्रधानाध्यापक",
+   "place": "रा.मा.वि., भूण्डेल",
+   "mobile": "9461145632"
+ },
+ {
+   "sno": "109",
+   "assembly": "Khinwsar",
+   "sector": "आर-2",
+   "name": "श्री विनोद कुमार",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., तातंवास",
+   "mobile": "9782680609"
+ },
+ {
+   "sno": "110",
+   "assembly": "Merta",
+   "sector": "1",
+   "name": "श्री शान्तिलाल ओझा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि.जाटावास",
+   "mobile": "9829831453"
+ },
+ {
+   "sno": "111",
+   "assembly": "Merta",
+   "sector": "2",
+   "name": "श्री ओम सिंह",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि.झिंटिया",
+   "mobile": "9983616331"
+ },
+ {
+   "sno": "112",
+   "assembly": "Merta",
+   "sector": "3",
+   "name": "श्री रामेश्वर दयाल",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि.बीजाथल",
+   "mobile": "9680152601"
+ },
+ {
+   "sno": "113",
+   "assembly": "Merta",
+   "sector": "4",
+   "name": "श्री राजकुमार सामंत",
+   "designation": "सहायक आचार्य",
+   "place": "राजकीय महावि़द्यालय मेड़ता",
+   "mobile": "9828180757"
+ },
+ {
+   "sno": "114",
+   "assembly": "Merta",
+   "sector": "5",
+   "name": "श्री हरकरण सिसोदिया",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि.जसवन्ताबाद",
+   "mobile": "9460934340, 9460934240"
+ },
+ {
+   "sno": "115",
+   "assembly": "Merta",
+   "sector": "6",
+   "name": "श्री संजीव गुप्ता",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि.लिलिंया",
+   "mobile": "9460286242"
+ },
+ {
+   "sno": "116",
+   "assembly": "Merta",
+   "sector": "7",
+   "name": "श्री प्रहलाद राम",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि.लाम्पोलाई",
+   "mobile": "9413581104"
+ },
+ {
+   "sno": "117",
+   "assembly": "Merta",
+   "sector": "8",
+   "name": "श्री रूपाराम तंवर",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि.गंवारडी",
+   "mobile": "9799274806"
+ },
+ {
+   "sno": "118",
+   "assembly": "Merta",
+   "sector": "9",
+   "name": "श्री उम्मेद सिंह सांदू",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि.पादू कलां",
+   "mobile": "9982027860, 7014919959"
+ },
+ {
+   "sno": "119",
+   "assembly": "Merta",
+   "sector": "10",
+   "name": "श्री अमराराम लटियाल",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि.जडाउकलां",
+   "mobile": "9001988733"
+ },
+ {
+   "sno": "120",
+   "assembly": "Merta",
+   "sector": "11",
+   "name": "डॉ. बलवीर सैन",
+   "designation": "सहायक प्रोफेसर",
+   "place": "राजकीय महाविद्यालय मेड़ता",
+   "mobile": ""
+ },
+ {
+   "sno": "121",
+   "assembly": "Merta",
+   "sector": "12",
+   "name": "श्री बगदा राम बारूपाल",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि.बडायली",
+   "mobile": "9460752631"
+ },
+ {
+   "sno": "122",
+   "assembly": "Merta",
+   "sector": "13",
+   "name": "श्री रामलाल",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि.डांगावास",
+   "mobile": "9413985745"
+ },
+ {
+   "sno": "123",
+   "assembly": "Merta",
+   "sector": "14",
+   "name": "श्री सुरेश चन्द्र बोराणा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि.गोटन",
+   "mobile": "7891061656"
+ },
+ {
+   "sno": "124",
+   "assembly": "Merta",
+   "sector": "15",
+   "name": "श्री श्रीराम खोजा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि.टुंकलिया",
+   "mobile": "9461023945"
+ },
+ {
+   "sno": "125",
+   "assembly": "Merta",
+   "sector": "16",
+   "name": "श्रीराजूराम",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि. मोकाला",
+   "mobile": "8239111511"
+ },
+ {
+   "sno": "126",
+   "assembly": "Merta",
+   "sector": "17",
+   "name": "श्री पांचाराम",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि. इन्दावड",
+   "mobile": "9413116969"
+ },
+ {
+   "sno": "127",
+   "assembly": "Merta",
+   "sector": "18",
+   "name": "श्री अर्जुन राम",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि. कलरू",
+   "mobile": "9460222621"
+ },
+ {
+   "sno": "128",
+   "assembly": "Merta",
+   "sector": "19",
+   "name": "श्री घनश्याम पारीक",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि. लाम्बा जाटान",
+   "mobile": "9413761361"
+ },
+ {
+   "sno": "129",
+   "assembly": "Merta",
+   "sector": "20",
+   "name": "श्री काना राम पारीक",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि. टालनपुर",
+   "mobile": "9413413109"
+ },
+ {
+   "sno": "130",
+   "assembly": "Merta",
+   "sector": "आर-1",
+   "name": "श्री बलदेवराम",
+   "designation": "सहायक प्रोफेसर",
+   "place": "राजकीय महाविद्यालय मेड़ता",
+   "mobile": ""
+ },
+ {
+   "sno": "131",
+   "assembly": "Merta",
+   "sector": "आर-2",
+   "name": "डॉ. छबि मित्तल",
+   "designation": "सहायक आचार्य",
+   "place": "राजकीय महाविद्यालय मेड़ता",
+   "mobile": "9461190965"
+ },
+ {
+   "sno": "132",
+   "assembly": "Degana",
+   "sector": "1",
+   "name": "श्री गिरधारीलाल मीणा",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि., आतंरोली कंला",
+   "mobile": "9413281010"
+ },
+ {
+   "sno": "133",
+   "assembly": "Degana",
+   "sector": "2",
+   "name": "श्री हनुमाराम मेहरा",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि.,  बच्छवारी",
+   "mobile": "8875749853, 8769715171"
+ },
+ {
+   "sno": "134",
+   "assembly": "Degana",
+   "sector": "3",
+   "name": "श्री गोविन्द राम बैडा",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि.,  बंवरला",
+   "mobile": "8290800943"
+ },
+ {
+   "sno": "135",
+   "assembly": "Degana",
+   "sector": "4",
+   "name": "श्री नोरतकुमार",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि.,  बरना",
+   "mobile": "9828381047"
+ },
+ {
+   "sno": "136",
+   "assembly": "Degana",
+   "sector": "5",
+   "name": "श्री जंवरीलाल",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि., पुन्दलोता",
+   "mobile": "9982316582"
+ },
+ {
+   "sno": "137",
+   "assembly": "Degana",
+   "sector": "6",
+   "name": "श्री आनन्दसिंह",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि.,  चैसली",
+   "mobile": "9828705031"
+ },
+ {
+   "sno": "138",
+   "assembly": "Degana",
+   "sector": "7",
+   "name": "श्री जवंरीसिंह चैधरी",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि.,  चुई",
+   "mobile": "8209148804, 9413723890"
+ },
+ {
+   "sno": "139",
+   "assembly": "Degana",
+   "sector": "8",
+   "name": "श्री मुन्नीराम",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि.,  डावोली मिठी",
+   "mobile": "9783133726"
+ },
+ {
+   "sno": "140",
+   "assembly": "Degana",
+   "sector": "9",
+   "name": "श्री षिवजीराम",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि.,  डेगाना गांव",
+   "mobile": "7073077153"
+ },
+ {
+   "sno": "141",
+   "assembly": "Degana",
+   "sector": "10",
+   "name": "श्री आषाराम",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि.,  किरोदा",
+   "mobile": "9610356837, 9413545153"
+ },
+ {
+   "sno": "142",
+   "assembly": "Degana",
+   "sector": "11",
+   "name": "श्री देवेन्द्रसिह",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि.निम्बडी कंला",
+   "mobile": "9460091251"
+ },
+ {
+   "sno": "143",
+   "assembly": "Degana",
+   "sector": "12",
+   "name": "श्री भंवरसिंह",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि.,  ईडवा",
+   "mobile": "9950558011"
+ },
+ {
+   "sno": "144",
+   "assembly": "Degana",
+   "sector": "13",
+   "name": "श्री भगवानसिंह",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि.,  जाखेडा",
+   "mobile": "9414883952"
+ },
+ {
+   "sno": "145",
+   "assembly": "Degana",
+   "sector": "14",
+   "name": "श्री गोरधनराम डूडी",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि.,  जालसू नानक",
+   "mobile": "9783695166"
+ },
+ {
+   "sno": "146",
+   "assembly": "Degana",
+   "sector": "15",
+   "name": "श्री अमरसिंह",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि., पूनास",
+   "mobile": "9571074304"
+ },
+ {
+   "sno": "147",
+   "assembly": "Degana",
+   "sector": "16",
+   "name": "श्री धर्मराज",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि., खुडीकंला",
+   "mobile": "9950185387"
+ },
+ {
+   "sno": "148",
+   "assembly": "Degana",
+   "sector": "17",
+   "name": "श्री राकेष कुमार",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि., जालसूखुर्द",
+   "mobile": "9460954077"
+ },
+ {
+   "sno": "149",
+   "assembly": "Degana",
+   "sector": "18",
+   "name": "श्री घीसालाल",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि.,  माण्डल जोधा",
+   "mobile": "9414744430"
+ },
+ {
+   "sno": "150",
+   "assembly": "Degana",
+   "sector": "19",
+   "name": "श्री जस्साराम",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि.,  मांझी",
+   "mobile": "9829383242"
+ },
+ {
+   "sno": "151",
+   "assembly": "Degana",
+   "sector": "20",
+   "name": "श्री शहनवाज खान",
+   "designation": "सहायक आचार्य",
+   "place": "राजकीय महाविद्यालय डेगाना",
+   "mobile": "8561093419"
+ },
+ {
+   "sno": "152",
+   "assembly": "Degana",
+   "sector": "आर-1",
+   "name": "श्री हरीराम",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि.,  कीतलसर",
+   "mobile": "9413983604"
+ },
+ {
+   "sno": "153",
+   "assembly": "Degana",
+   "sector": "आर-2",
+   "name": "श्री अनिल कुमार",
+   "designation": "प्राधानाचार्य",
+   "place": "रा.उ.मा.वि.,  हरसौर",
+   "mobile": "9413413049"
+ },
+ {
+   "sno": "154",
+   "assembly": "Makrana",
+   "sector": "1",
+   "name": "श्रीप्रमोदकुमारशर्मा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.बा.उ.मा.वि., बोरावड़",
+   "mobile": "9829324302, 7976032208"
+ },
+ {
+   "sno": "155",
+   "assembly": "Makrana",
+   "sector": "2",
+   "name": "श्री गोपालराम भाकर",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., राणीगांव",
+   "mobile": "9950778345"
+ },
+ {
+   "sno": "156",
+   "assembly": "Makrana",
+   "sector": "3",
+   "name": "श्री रामसिंह नेत्रा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., बोरावड़",
+   "mobile": "9462639123"
+ },
+ {
+   "sno": "157",
+   "assembly": "Makrana",
+   "sector": "4",
+   "name": "श्री धन्नाराम",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., डोबड़ीकलां",
+   "mobile": "9928720743, 9413129220"
+ },
+ {
+   "sno": "158",
+   "assembly": "Makrana",
+   "sector": "5",
+   "name": "श्री राजकुमार",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., बाजोली",
+   "mobile": "9660336653"
+ },
+ {
+   "sno": "159",
+   "assembly": "Makrana",
+   "sector": "6",
+   "name": "श्री हीराराम कस्वा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., बिल्लू",
+   "mobile": "9929175712"
+ },
+ {
+   "sno": "160",
+   "assembly": "Makrana",
+   "sector": "7",
+   "name": "श्री किसनाराम",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि.,रामसिया",
+   "mobile": "9928896874"
+ },
+ {
+   "sno": "161",
+   "assembly": "Makrana",
+   "sector": "8",
+   "name": "श्री इलियास खान",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., बेसरोली",
+   "mobile": "9636254786"
+ },
+ {
+   "sno": "162",
+   "assembly": "Makrana",
+   "sector": "9",
+   "name": "श्री नरेन्द्र कुमार जाखड़",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि.,कुकड़ोद",
+   "mobile": "9414331443"
+ },
+ {
+   "sno": "163",
+   "assembly": "Makrana",
+   "sector": "10",
+   "name": "श्री सतीश कुमार खारिया",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., सरनावड़ा",
+   "mobile": "9461060896"
+ },
+ {
+   "sno": "164",
+   "assembly": "Makrana",
+   "sector": "11",
+   "name": "श्री कमलेश कुमार सैनी",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., चावण्डिया",
+   "mobile": "9829067423"
+ },
+ {
+   "sno": "165",
+   "assembly": "Makrana",
+   "sector": "12",
+   "name": "श्री महिपालसिंह राठौड़",
+   "designation": "प्रधानाध्यापक",
+   "place": "रा.मा.वि.,गिंगालिया",
+   "mobile": "7891820590"
+ },
+ {
+   "sno": "166",
+   "assembly": "Makrana",
+   "sector": "13",
+   "name": "श्री रतनसिंह",
+   "designation": "प्रधानाध्यापक",
+   "place": "रा.मा.वि.,चिण्डालिया",
+   "mobile": "9414300266"
+ },
+ {
+   "sno": "167",
+   "assembly": "Makrana",
+   "sector": "14",
+   "name": "श्री घड़सीराम सुथार",
+   "designation": "व्याख्याता",
+   "place": "रा.उ.मा.वि., सरनावड़ा",
+   "mobile": "9460651206"
+ },
+ {
+   "sno": "168",
+   "assembly": "Makrana",
+   "sector": "15",
+   "name": "श्री छोटूराम बाजड़ोलिया",
+   "designation": "व्याख्याता",
+   "place": "रा.उ.मा.वि., मनाना",
+   "mobile": "9413518531"
+ },
+ {
+   "sno": "169",
+   "assembly": "Makrana",
+   "sector": "16",
+   "name": "श्री धन्नाराम",
+   "designation": "व्याख्याता",
+   "place": "रा.उ.मा.वि., रामसिया",
+   "mobile": "9680668883"
+ },
+ {
+   "sno": "170",
+   "assembly": "Makrana",
+   "sector": "17",
+   "name": "श्री ओमप्रकाश छाबा",
+   "designation": "व्याख्याता",
+   "place": "रा.उ.मा.वि., राणीगांव",
+   "mobile": "7742942077"
+ },
+ {
+   "sno": "171",
+   "assembly": "Makrana",
+   "sector": "18",
+   "name": "श्री मनोहरलाल जांगिड़",
+   "designation": "व्याख्याता",
+   "place": "रा.उ.मा.वि., खेड़ीशीला",
+   "mobile": "9464403350"
+ },
+ {
+   "sno": "172",
+   "assembly": "Makrana",
+   "sector": "19",
+   "name": "श्री राकेश कुमार माली",
+   "designation": "व्याख्याता",
+   "place": "राउमावि मनाना",
+   "mobile": "8278657546"
+ },
+ {
+   "sno": "173",
+   "assembly": "Makrana",
+   "sector": "20",
+   "name": "श्री किसनाराम घोटिया",
+   "designation": "व्याख्याता",
+   "place": "राउमावि कुकड़ोद",
+   "mobile": "9784431322"
+ },
+ {
+   "sno": "174",
+   "assembly": "Makrana",
+   "sector": "आर-1",
+   "name": "श्री उमेशचन्द्र शर्मा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि ,हुड़िया",
+   "mobile": "9460705524"
+ },
+ {
+   "sno": "175",
+   "assembly": "Makrana",
+   "sector": "आर-2",
+   "name": "श्री विनोद कुमार स्वामी",
+   "designation": "व्याख्याता",
+   "place": "राउमावि बुड़सू",
+   "mobile": "9928682705"
+ },
+ {
+   "sno": "176",
+   "assembly": "Parbatsar",
+   "sector": "1",
+   "name": "श्री संजय भांगडिया",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., बागोट",
+   "mobile": "9571603088"
+ },
+ {
+   "sno": "177",
+   "assembly": "Parbatsar",
+   "sector": "2",
+   "name": "श्री दिनेष लाडना",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., गांगवा",
+   "mobile": "9461023197, 7727999189"
+ },
+ {
+   "sno": "178",
+   "assembly": "Parbatsar",
+   "sector": "3",
+   "name": "श्री राधा कृष्ण",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., गूलर",
+   "mobile": "9783118500"
+ },
+ {
+   "sno": "179",
+   "assembly": "Parbatsar",
+   "sector": "4",
+   "name": "श्री प्रहलाद राय",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., मंगलाना",
+   "mobile": "9829910672"
+ },
+ {
+   "sno": "180",
+   "assembly": "Parbatsar",
+   "sector": "5",
+   "name": "श्री दामोदरप्रसाद तिवाड़ी",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., बिदियाद",
+   "mobile": "9413926121"
+ },
+ {
+   "sno": "181",
+   "assembly": "Parbatsar",
+   "sector": "6",
+   "name": "श्री गजेन्द्रसिह",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., रूंणिजा",
+   "mobile": "9413747455"
+ },
+ {
+   "sno": "182",
+   "assembly": "Parbatsar",
+   "sector": "7",
+   "name": "श्री शीषराम",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि.,राबडियाद",
+   "mobile": "9413839844"
+ },
+ {
+   "sno": "183",
+   "assembly": "Parbatsar",
+   "sector": "8",
+   "name": "श्री केनेडी सोलोमन",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., कुराडा",
+   "mobile": "9829223476, 9079169604"
+ },
+ {
+   "sno": "184",
+   "assembly": "Parbatsar",
+   "sector": "9",
+   "name": "श्री अषोक जोषी",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., चिताई",
+   "mobile": "9414667696"
+ },
+ {
+   "sno": "185",
+   "assembly": "Parbatsar",
+   "sector": "10",
+   "name": "श्री सुरेन्द्र बुनकर",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., जंजीला",
+   "mobile": "9929448858"
+ },
+ {
+   "sno": "186",
+   "assembly": "Parbatsar",
+   "sector": "11",
+   "name": "श्री जतनाराम",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., गिंगोली",
+   "mobile": "9929759882"
+ },
+ {
+   "sno": "187",
+   "assembly": "Parbatsar",
+   "sector": "12",
+   "name": "श्री छोटूराम जोधा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., रोहिण्डी",
+   "mobile": "9982336801"
+ },
+ {
+   "sno": "188",
+   "assembly": "Parbatsar",
+   "sector": "13",
+   "name": "श्री जाॅनसन जाॅय",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., किनसरीया",
+   "mobile": "9460545001"
+ },
+ {
+   "sno": "189",
+   "assembly": "Parbatsar",
+   "sector": "14",
+   "name": "श्री हरलाल सिंह कालेर",
+   "designation": "प्रधानाचार्य",
+   "place": "रा माॅडल स्कूल परबतसर",
+   "mobile": "9413734350"
+ },
+ {
+   "sno": "190",
+   "assembly": "Parbatsar",
+   "sector": "15",
+   "name": "श्री हेमन्त मिश्रा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि. टापरवाड़ा",
+   "mobile": "9460334656"
+ },
+ {
+   "sno": "191",
+   "assembly": "Parbatsar",
+   "sector": "16",
+   "name": "श्री राजेन्द्रसिंह",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., नेतियास",
+   "mobile": "7597723178"
+ },
+ {
+   "sno": "192",
+   "assembly": "Parbatsar",
+   "sector": "17",
+   "name": "श्री जगदीश सिंह",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि. बाजवास",
+   "mobile": "9929341067"
+ },
+ {
+   "sno": "193",
+   "assembly": "Parbatsar",
+   "sector": "18",
+   "name": "श्री भैराराम भाम्भू",
+   "designation": "व्याख्याता",
+   "place": "रा. महा. मंगलाना",
+   "mobile": "9414364263"
+ },
+ {
+   "sno": "194",
+   "assembly": "Parbatsar",
+   "sector": "आर-1",
+   "name": "श्री आनन्दीदास बक्षी",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., नेणिया",
+   "mobile": "9928551987"
+ },
+ {
+   "sno": "195",
+   "assembly": "Parbatsar",
+   "sector": "आर-2",
+   "name": "श्री राजेन्द्रप्रसाद उपाध्याय",
+   "designation": "जिला शिक्षा अधिकारी",
+   "place": "जिला शिक्षा अधिकारी मुख्यालय नागौर",
+   "mobile": "9461349121"
+ },
+ {
+   "sno": "196",
+   "assembly": "Nawan",
+   "sector": "1",
+   "name": "श्री मुकेष दाधीच",
+   "designation": "प्रधानाचार्य",
+   "place": "रा0उ0मा0वि0, जिलिया",
+   "mobile": "9982835828"
+ },
+ {
+   "sno": "197",
+   "assembly": "Nawan",
+   "sector": "2",
+   "name": "श्री सोहन राम जडावटा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा0उ0मा0वि0, चारणवास",
+   "mobile": "9772375709"
+ },
+ {
+   "sno": "198",
+   "assembly": "Nawan",
+   "sector": "3",
+   "name": "श्री रामेष्वर लाल खाचरिया",
+   "designation": "प्रधानाचार्य",
+   "place": "रा0उ0मा0वि0, चितावा",
+   "mobile": "9414587412"
+ },
+ {
+   "sno": "199",
+   "assembly": "Nawan",
+   "sector": "4",
+   "name": "श्री सुल्तान सिंह",
+   "designation": "प्रधानाचार्य",
+   "place": "रा0उ0मा0वि0, लालास",
+   "mobile": "9414542330, 9460167171"
+ },
+ {
+   "sno": "200",
+   "assembly": "Nawan",
+   "sector": "5",
+   "name": "श्री नानू राम जाट",
+   "designation": "प्रधानाचार्य",
+   "place": "रा0उ0मा0वि0, घाटवा",
+   "mobile": "9414639598"
+ },
+ {
+   "sno": "201",
+   "assembly": "Nawan",
+   "sector": "6",
+   "name": "श्री रामेष्वर लाल",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.उ.मा.वि., मीण्डा",
+   "mobile": "9829974717"
+ },
+ {
+   "sno": "202",
+   "assembly": "Nawan",
+   "sector": "7",
+   "name": "श्री देबू राम टांडी",
+   "designation": "प्रधानाचार्य",
+   "place": "रा0उ0मा0वि0, इण्डाली",
+   "mobile": "9414593230"
+ },
+ {
+   "sno": "203",
+   "assembly": "Nawan",
+   "sector": "8",
+   "name": "श्रीहीराराम",
+   "designation": "प्रधानाचार्य",
+   "place": "रा0उ0मा0वि0,इन्दौखा",
+   "mobile": "9928719091"
+ },
+ {
+   "sno": "204",
+   "assembly": "Nawan",
+   "sector": "9",
+   "name": "श्री कमल कुमार",
+   "designation": "प्रधानाचार्य",
+   "place": "रा0उ0मा0वि मुआना",
+   "mobile": "9602736669"
+ },
+ {
+   "sno": "205",
+   "assembly": "Nawan",
+   "sector": "10",
+   "name": "श्री राजेन्द्र कुमार शर्मा",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि नगवाड़ा",
+   "mobile": "9413503549"
+ },
+ {
+   "sno": "206",
+   "assembly": "Nawan",
+   "sector": "11",
+   "name": "श्री षिव प्रसाद",
+   "designation": "प्रधानाचार्य",
+   "place": "रा0उ0मा0वि0, पाॅचोता",
+   "mobile": "9461125833"
+ },
+ {
+   "sno": "207",
+   "assembly": "Nawan",
+   "sector": "12",
+   "name": "श्री सतेन्द्र शर्मा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा0उ0मा0वि0 अड़कसर",
+   "mobile": "9983338172"
+ },
+ {
+   "sno": "208",
+   "assembly": "Nawan",
+   "sector": "13",
+   "name": "श्री दिलीप कुमार",
+   "designation": "प्रधानाचार्य",
+   "place": "रा0उ0मा0वि0 षिव",
+   "mobile": "914785505"
+ },
+ {
+   "sno": "209",
+   "assembly": "Nawan",
+   "sector": "14",
+   "name": "श्री हरि सिंह",
+   "designation": "प्रधानाचार्य",
+   "place": "रा0उ0मा0वि0 पलाडा",
+   "mobile": "9413926752"
+ },
+ {
+   "sno": "210",
+   "assembly": "Nawan",
+   "sector": "15",
+   "name": "श्री कन्हैया लाल",
+   "designation": "प्रधानाचार्य",
+   "place": "रा0उ0मा0वि0, गौविन्दी",
+   "mobile": "9352540099"
+ },
+ {
+   "sno": "211",
+   "assembly": "Nawan",
+   "sector": "16",
+   "name": "श्रीरधुवीरसिंह",
+   "designation": "बी.ई.ई.ओ",
+   "place": "बी.ई.ई.ओ कार्यालय, नांवा",
+   "mobile": "946136731"
+ },
+ {
+   "sno": "212",
+   "assembly": "Nawan",
+   "sector": "17",
+   "name": "श्री ललितकुमार शर्मा",
+   "designation": "प्रधानाचार्य",
+   "place": "रा.मा.वि.नांवा",
+   "mobile": "9460891439, 9460891489"
+ },
+ {
+   "sno": "213",
+   "assembly": "Nawan",
+   "sector": "18",
+   "name": "श्री नरपतसिंह राजपुरोहित",
+   "designation": "व्याख्याता",
+   "place": "राज.बांगड़ महा., डीडवाना",
+   "mobile": "9414813251"
+ },
+ {
+   "sno": "214",
+   "assembly": "Nawan",
+   "sector": "19",
+   "name": "श्री कमल किशोर",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि रसाल",
+   "mobile": "9413575233"
+ },
+ {
+   "sno": "215",
+   "assembly": "Nawan",
+   "sector": "20",
+   "name": "श्री बंषी लाल",
+   "designation": "प्रधानाचार्य",
+   "place": "रा0उ0मा0वि, श्यामगढ",
+   "mobile": "9784888430"
+ },
+ {
+   "sno": "216",
+   "assembly": "Nawan",
+   "sector": "21",
+   "name": "श्रीशिशुपालसिंह",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि चावण्डिया",
+   "mobile": "9828838971"
+ },
+ {
+   "sno": "217",
+   "assembly": "Nawan",
+   "sector": "22",
+   "name": "श्री रामलाल",
+   "designation": "प्रधानाचार्य",
+   "place": "राउमावि परेवड़ी",
+   "mobile": "9460023166"
+ },
+ {
+   "sno": "218",
+   "assembly": "Nawan",
+   "sector": "आर-1",
+   "name": "डॉ नाथूराम ढाका",
+   "designation": "व्याख्याता",
+   "place": "राज.बांगड़ महा., डीडवाना",
+   "mobile": "9414547533"
+ },
+ {
+   "sno": "219",
+   "assembly": "Nawan",
+   "sector": "आर-2",
+   "name": "डॉ गजानंद चारण",
+   "designation": "सह आचार्य",
+   "place": "राज.बांगड़ महा., डीडवाना",
+   "mobile": "9414587319"
+ }
+]

@@ -139,6 +139,36 @@
 
 
 
+    <!-- Sector officer listing and search -->
+
+    <div ng-if="showSector">
+      <div class="col 12"><input type="text" ng-model="search.$" placeholder="Search by any field"></div>
+      <div class="col s12" ng-repeat="sector in sectorData | filter:search:strict">
+        <div ng-class-odd="'card horizontal purple darken-2'" ng-class-even="'card horizontal pink darken-2'">
+          <div class="container center white-text">
+            <h6 style="font-weight:800">{{sector.name  || "not available"}}</h6>
+            <div class="row" style="margin-top:-10px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Designation:</span> {{sector.designation  || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Place:</span> {{sector.place || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Mobile:</span> <a ng-href="tel:{{sector.mobile}}">{{sector.mobile || "not available"}}</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
   </main>
 
   <!-- tab contents end here -->
