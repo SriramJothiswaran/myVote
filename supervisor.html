@@ -169,6 +169,44 @@
     </div>
 
 
+
+    <!-- Observer officer listing and search -->
+
+    <div ng-if="showObserver">
+      <div class="col 12"><input type="text" ng-model="search.$" placeholder="Search by any field"></div>
+      <div class="col s12" ng-repeat="observer in observerData | filter:search:strict">
+        <div ng-class-odd="'card horizontal purple darken-2'" ng-class-even="'card horizontal pink darken-2'">
+          <div class="container center white-text">
+            <h6 style="font-weight:800">{{observer.observerName  || "not available"}}, {{observer.observerType}}</h6>
+            <div class="row" style="margin-top:-10px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Mobile:</span> <a ng-href="tel:{{observer.mobile}}">{{observer.mobile || "not available"}}</a></p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Liaisoning Officer Name:</span> {{observer.officerName || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Liaisoning Officer Mobile Number:</span> <a ng-href="tel:{{observer.officerMobile}}">{{observer.officerMobile || "not available"}}</a></p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Accomodation:</span> {{observer.accomodation || "not available"}}</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
   </main>
 
   <!-- tab contents end here -->

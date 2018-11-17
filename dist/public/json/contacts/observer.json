@@ -1,0 +1,182 @@
+[
+ {
+   "assembly": "Ladnu",
+   "observerType": "Expenditure Observer",
+   "observerName": "IMLIMEREN JAMIR",
+   "mobile": "9461205203",
+   "officerName": "Sh. Chaturbhuj khudiwal",
+   "officerMobile": "9414587359",
+   "accomodation": "Dak Banglow, Didwana"
+ },
+ {
+   "assembly": "Deedwana",
+   "observerType": "Expenditure Observer",
+   "observerName": "IMLIMEREN JAMIR",
+   "mobile": "9461205203",
+   "officerName": "Sh. Chaturbhuj khudiwal",
+   "officerMobile": "9414587359",
+   "accomodation": "Dak Banglow, Didwana"
+ },
+ {
+   "assembly": "Jayal",
+   "observerType": "Expenditure Observer",
+   "observerName": "IMLIMEREN JAMIR",
+   "mobile": "9461205203",
+   "officerName": "Sh. Chaturbhuj khudiwal",
+   "officerMobile": "9414587359",
+   "accomodation": "Dak Banglow, Didwana"
+ },
+ {
+   "assembly": "Nagaur",
+   "observerType": "Expenditure Observer",
+   "observerName": "S.K.N. REDDY",
+   "mobile": "8905580695",
+   "officerName": "Sh. Vijay Choudhary",
+   "officerMobile": "9461249175",
+   "accomodation": "Circuit House Nagaur"
+ },
+ {
+   "assembly": "Khinwsar",
+   "observerType": "Expenditure Observer",
+   "observerName": "S.K.N. REDDY",
+   "mobile": "8905580695",
+   "officerName": "Sh. Vijay Choudhary",
+   "officerMobile": "9461249175",
+   "accomodation": "Circuit House Nagaur"
+ },
+ {
+   "assembly": "Merta",
+   "observerType": "Expenditure Observer",
+   "observerName": "S.K.N. REDDY",
+   "mobile": "8905580695",
+   "officerName": "Sh. Vijay Choudhary",
+   "officerMobile": "9461249175",
+   "accomodation": "Circuit House Nagaur"
+ },
+ {
+   "assembly": "Degana",
+   "observerType": "Expenditure Observer",
+   "observerName": "S.K.N. REDDY",
+   "mobile": "8905580695",
+   "officerName": "Sh. Vijay Choudhary",
+   "officerMobile": "9461249175",
+   "accomodation": "Circuit House Nagaur"
+ },
+ {
+   "assembly": "Makrana",
+   "observerType": "Expenditure Observer",
+   "observerName": "RAKESH DEEPAK",
+   "mobile": "9166268693",
+   "officerName": "Sh. Rajeev Soni",
+   "officerMobile": "9829393652",
+   "accomodation": "Parbatsar"
+ },
+ {
+   "assembly": "Parbatsar",
+   "observerType": "Expenditure Observer",
+   "observerName": "RAKESH DEEPAK",
+   "mobile": "9166268693",
+   "officerName": "Sh. Rajeev Soni",
+   "officerMobile": "9829393652",
+   "accomodation": "Parbatsar"
+ },
+ {
+   "assembly": "Nawan",
+   "observerType": "Expenditure Observer",
+   "observerName": "RAKESH DEEPAK",
+   "mobile": "9166268693",
+   "officerName": "Sh. Rajeev Soni",
+   "officerMobile": "9829393652",
+   "accomodation": "Parbatsar"
+ },
+ {
+   "assembly": "Ladnu",
+   "observerType": "General Observer",
+   "observerName": "MR. HANSRAJ CHAUHAN",
+   "mobile": "9418105888",
+   "officerName": "Sh. Dharmendra Bhambhu",
+   "officerMobile": "9414270606",
+   "accomodation": "Shubham Guest House, Ladnun"
+ },
+ {
+   "assembly": "Deedwana",
+   "observerType": "General Observer",
+   "observerName": "MR. RAJ KUMAR",
+   "mobile": "9199270635",
+   "officerName": "Sh. Bhikharam Berwal",
+   "officerMobile": "9414760498",
+   "accomodation": "PWD Dak Banlow Didwana"
+ },
+ {
+   "assembly": "Jayal",
+   "observerType": "General Observer",
+   "observerName": "MR. PREMANIDHI SETH",
+   "mobile": "8658067220",
+   "officerName": "Sh. Pankaj Gadhwal",
+   "officerMobile": "9782340398",
+   "accomodation": "Circuit House Nagaur"
+ },
+ {
+   "assembly": "Nagaur",
+   "observerType": "General Observer",
+   "observerName": "MR. PREMANIDHI SETH",
+   "mobile": "8658067220",
+   "officerName": "Sh. Pankaj Gadhwal",
+   "officerMobile": "9782340398",
+   "accomodation": "Circuit House Nagaur"
+ },
+ {
+   "assembly": "Khinwsar",
+   "observerType": "General Observer",
+   "observerName": "MR. MOHINDER PAL",
+   "mobile": "9780039403",
+   "officerName": "Sh. Subhash Nehra",
+   "officerMobile": "9783714260",
+   "accomodation": "Circuit House Nagaur"
+ },
+ {
+   "assembly": "Merta",
+   "observerType": "General Observer",
+   "observerName": "MR. K. SRINIWASAN",
+   "mobile": "7070450459",
+   "officerName": "Sh. Raghunath Sinwar",
+   "officerMobile": "9983219797",
+   "accomodation": "PWD Dak Banglow Merta"
+ },
+ {
+   "assembly": "Degana",
+   "observerType": "General Observer",
+   "observerName": "MR. AKHILESH SINGH",
+   "mobile": "8800443372",
+   "officerName": "Sh. R.D. Bunkar",
+   "officerMobile": "9414023122",
+   "accomodation": "Railway Rest Room, Degana"
+ },
+ {
+   "assembly": "Makrana",
+   "observerType": "General Observer",
+   "observerName": "MR. RAJESH KUMAR PATHAK",
+   "mobile": "8986746111",
+   "officerName": "Sh. Prakash",
+   "officerMobile": "9982466014",
+   "accomodation": "PWD Dak Banglow Makrana"
+ },
+ {
+   "assembly": "Parbatsar",
+   "observerType": "General Observer",
+   "observerName": "MR. A. B. IBRAHIM",
+   "mobile": "9449225000",
+   "officerName": "Sh. Devendra Kumar",
+   "officerMobile": "9414003317",
+   "accomodation": "PWD Dak Banglow Parbatsar"
+ },
+ {
+   "assembly": "Nawan",
+   "observerType": "General Observer",
+   "observerName": "MR. BOBBY WAIKHOM",
+   "mobile": "9862574288",
+   "officerName": "Sh. Diwakar Bhatt",
+   "officerMobile": "9460000853",
+   "accomodation": "Kothari Bhawan, Kuchaman"
+ }
+]
