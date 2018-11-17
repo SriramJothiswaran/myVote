@@ -11,6 +11,10 @@
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="public/js/turbolinks.js"></script>
+  <script src="public/js/angular.min.js" data-turbolinks-track="reload"></script>
+  <script src="public/js/main.js" data-turbolinks-track="reload"></script>
+
+
 
 
 </head>
@@ -24,7 +28,7 @@
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="/home.html">Home</a></li>
-            <li><a href="blo.html">BLO Directory</a></li>
+            <li><a href="blo.html">Search Directory</a></li>
             <li><a href="https://cvigil.eci.nic.in/">Lodge Grievance</a></li>
             <li><a href="mock.html">Mock Poll : VVPAT</a></li>
             <li><a href="contacts.html">Important Contacts</a></li>
@@ -46,7 +50,7 @@
         </div>
         <ul class="sidenav" id="mobile-demo">
           <li><a href="/home.html">Home</a></li>
-          <li><a href="blo.html">BLO Directory</a></li>
+          <li><a href="blo.html">Search Directory</a></li>
           <li><a href="https://cvigil.eci.nic.in/">Lodge Grievance</a></li>
           <li><a href="mock.html">Mock Poll : VVPAT</a></li>
           <li><a href="contacts.html">Important Contacts</a></li>
@@ -60,36 +64,233 @@
       </nav>
     </div>
   </header>
-  <main class="container">
+  <main class="container" ng-app="myApp" ng-controller="myCtrl">
+    <form ng-show="showSearch" name="searchForm">
+      <div class="input-field col s12">
+        <h6>Assembly Name</h6>
+        <select name="searchForm" ng-model="selectedName" ng-options="x for x in assemblyName"  required>
+          <option value="" disabled selected>Choose your option</option>
+        </select>
+        <!-- <span ng-show="searchForm.searchForm.$error.required">Select Assembly</span> -->
+      </div>
+      <div class="input-field col s12">
+        <h6>Designation</h6>
+        <select ng-model="selectedDesignation" ng-options="x for x in designation"  required>
+          <option value="" disabled selected>Choose your option</option>
+        </select>
+      </div>
+      <div class="center">
+        <button type="submit" class="waves-effect waves-light btn-large red lighten-1" ng-click="submitSearch()">Search</button>
+      </div>
+    </form>
+    <div ng-if="showDEO">
+      <br>
+      <button class="waves-effect waves-light btn-small white" ng-click="goSearch()"><span class="blue-text"><i class="material-icons left">arrow_back_ios</i>back</span></button>
+      <div class="col 12"><input type="text" ng-model="search.$" placeholder="Search by any field"></div>
+      <div class="col s12" ng-repeat="deo in deoData | filter:search:strict">
+        <div ng-class-odd="'card horizontal purple darken-2'" ng-class-even="'card horizontal pink darken-2'">
+          <div class="container center white-text">
+            <h6 style="font-weight:800">{{deo.name  || "not available"}}</h6>
+            <div class="row" style="margin-top:-10px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Designation:</span> {{deo.designation  || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Office:</span> {{deo.officeadd  || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Mobile:</span> <a ng-href="tel:{{deo.mobile}}">{{deo.mobile  || "not available"}}</a></p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Email:</span> <a ng-href="mailto:{{deo.email}}">{{deo.email  || "not available"}}</a></p>
+              </div>
+            </div>
+          </div>
 
-    <table id="blo-table" class="material-table" style="width:100%" data-turbolinks='false'>
-      <thead>
-        <tr>
-          <th>Assembly Name</th>
-          <th>Polling Station No</th>
-          <th>Voting Building</th>
-          <th>BLO Name</th>
-          <th>Designation</th>
-          <th>Mobile</th>
-          <th>Supervisor</th>
-          <th>Designation</th>
-          <th>Mobile</th>
-        </tr>
-      </thead>
-      <tfoot>
-        <tr>
-          <th>Assembly Name</th>
-          <th>Polling Station No</th>
-          <th>Voting Building</th>
-          <th>BLO Name</th>
-          <th>Designation</th>
-          <th>Mobile</th>
-          <th>Supervisor</th>
-          <th>Designation</th>
-          <th>Mobile</th>
-        </tr>
-      </tfoot>
-    </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Flying squad listing and search  -->
+
+    <div ng-if="showSquad">
+      <br>
+      <button class="waves-effect waves-light btn-small white" ng-click="goSearch()"><span class="blue-text"><i class="material-icons left">arrow_back_ios</i>back</span></button>
+      <div class="col 12"><input type="text" ng-model="search.$" placeholder="Search by any field"></div>
+      <div class="col s12" ng-repeat="squad in squadData | filter:search:strict">
+        <div ng-class-odd="'card horizontal purple darken-2'" ng-class-even="'card horizontal pink darken-2'">
+          <div class="container center white-text">
+            <h6 style="font-weight:800">{{squad.squad  || "not available"}}</h6>
+            <div class="row" style="margin-top:-10px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Designation:</span> {{squad.designation  || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Mobile:</span> <a ng-href="tel:{{squad.mobile}}">{{squad.mobile || "not available"}}</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Sector officer listing and search -->
+
+    <div ng-if="showSector">
+      <br>
+      <button class="waves-effect waves-light btn-small white" ng-click="goSearch()"><span class="blue-text"><i class="material-icons left">arrow_back_ios</i>back</span></button>
+      <div class="col 12"><input type="text" ng-model="search.$" placeholder="Search by any field"></div>
+      <div class="col s12" ng-repeat="sector in sectorData | filter:search:strict">
+        <div ng-class-odd="'card horizontal purple darken-2'" ng-class-even="'card horizontal pink darken-2'">
+          <div class="container center white-text">
+            <h6 style="font-weight:800">{{sector.name  || "not available"}}</h6>
+            <div class="row" style="margin-top:-10px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Designation:</span> {{sector.designation  || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Place:</span> {{sector.place || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Mobile:</span> <a ng-href="tel:{{sector.mobile}}">{{sector.mobile || "not available"}}</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Observer officer listing and search -->
+
+    <div ng-if="showObserver">
+      <br>
+      <button class="waves-effect waves-light btn-small white" ng-click="goSearch()"><span class="blue-text"><i class="material-icons left">arrow_back_ios</i>back</span></button>
+      <div class="col 12"><input type="text" ng-model="search.$" placeholder="Search by any field"></div>
+      <div class="col s12" ng-repeat="observer in observerData | filter:search:strict">
+        <div ng-class-odd="'card horizontal purple darken-2'" ng-class-even="'card horizontal pink darken-2'">
+          <div class="container center white-text">
+            <h6 style="font-weight:800">{{observer.observerName  || "not available"}}, {{observer.observerType}}</h6>
+            <div class="row" style="margin-top:-10px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Mobile:</span> <a ng-href="tel:{{observer.mobile}}">{{observer.mobile || "not available"}}</a></p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Liaisoning Officer Name:</span> {{observer.officerName || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Liaisoning Officer Mobile Number:</span> <a ng-href="tel:{{observer.officerMobile}}">{{observer.officerMobile || "not available"}}</a></p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Accomodation:</span> {{observer.accomodation || "not available"}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- BLO officer listing and search -->
+
+
+    <div ng-if="showBLO">
+      <br>
+      <button class="waves-effect waves-light btn-small white" ng-click="goSearch()"><span class="blue-text"><i class="material-icons left">arrow_back_ios</i>back</span></button>
+      <div class="col 12"><input type="text" ng-model="search.$" placeholder="Search by any field"></div>
+      <div class="col s12" ng-repeat="blo in bloData | filter:search:strict">
+        <div ng-class-odd="'card horizontal purple darken-2'" ng-class-even="'card horizontal pink darken-2'">
+          <div class="container center white-text">
+            <h6 style="font-weight:800">{{blo.bloName  || "not available"}}</h6>
+            <div class="row" style="margin-top:-10px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Voting Building:</span> {{blo.votingBuilding || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Polling Station Number:</span> {{blo.pollingStationNumber || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Designation:</span> {{blo.designation || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Mobile:</span> <a ng-href="tel:{{blo.mobile}}">{{blo.mobile || "not available"}}</a></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Supervisor  listing and search -->
+
+
+    <div ng-if="showSupervisor">
+      <br>
+      <button class="waves-effect waves-light btn-small white" ng-click="goSearch()"><span class="blue-text"><i class="material-icons left">arrow_back_ios</i>back</span></button>
+      <div class="col 12"><input type="text" ng-model="search.$" placeholder="Search by any field"></div>
+      <div class="col s12" ng-repeat="supervisor in supervisorData | filter:search:strict">
+        <div ng-class-odd="'card horizontal purple darken-2'" ng-class-even="'card horizontal pink darken-2'">
+          <div class="container center white-text">
+            <h6 style="font-weight:800">{{supervisor.supervisor  || "not available"}}</h6>
+            <div class="row" style="margin-top:-10px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Voting Building:</span> {{supervisor.votingBuilding || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Polling Station Number:</span> {{supervisor.pollingStationNumber || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Designation:</span> {{supervisor.supervisorDesignation || "not available"}}</p>
+              </div>
+            </div>
+            <div class="row" style="margin-top:-30px">
+              <div class="col s12">
+                <p><span style="font-weight:800">Mobile:</span> <a ng-href="tel:{{supervisor.supervisorMobile}}">{{supervisor.supervisorMobile || "not available"}}</a></p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
 
   </main>
 
@@ -110,7 +311,7 @@
       <div class="center col s3">
         <a href="blo.html">
           <i class="material-icons">how_to_vote</i>
-          <p class="center" style="color:white">BLO</p>
+          <p class="center" style="color:white">Directory</p>
           <hr style="color:white">
         </a>
 
@@ -144,63 +345,18 @@
   <script type="text/javascript">
     $(document).ready(function() {
       $('.sidenav').sidenav();
+      $('select').formSelect();
 
     });
   </script>
   <script type="text/javascript">
-    var bloTable = null;
-    document.addEventListener("turbolinks:load", function() {
-      elem = document.querySelector('#mobile-demo');
-      instance = new M.Sidenav(elem, {});
-      if (bloTable != null) {
-        bloTable.destroy();
-      }
-      if ($('[id^=DataTables_Table]').length == 0) {
-        bloTable = $('#blo-table').DataTable({
-          stateSave: true,
-          "scrollX": true,
-          "sPageButton": "praveenjuge",
-          "ajax": "public/json/nagoor.json",
-          "columns": [{
-              "data": "assemblyName"
-            },
-            {
-              "data": "pollingStationNumber"
-            },
-            {
-              "data": "votingBuilding"
-            },
-            {
-              "data": "bloName"
-            },
-            {
-              "data": "designation"
-            },
-            {
-              "data": "mobile"
-            },
-            {
-              "data": "supervisor"
-            },
-            {
-              "data": "supervisorDesignation"
-            },
-            {
-              "data": "supervisorMobile"
-            }
-          ]
-        });
-
-      }
-    });
-
+  document.addEventListener("turbolinks:load", function() {
+  });
     document.addEventListener('turbolinks:before-visit', function() {
       console.log('destroyed blo');
       elem = document.querySelector('#mobile-demo');
       instance = M.Sidenav.getInstance(elem);
-      if (typeof(instance) != 'undefined') {
-        instance.destroy();
-      }
+      instance.destroy();
     });
 
     document.addEventListener("turbolinks:before-cache", function() {
@@ -212,3 +368,4 @@
 </body>
 
 </html>
+wwet
