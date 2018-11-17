@@ -338,7 +338,6 @@
   <!--JavaScript at end of body for optimized loading-->
   <script src="public/js/jquery.min.js"></script>
   <script src="public/js/materialize.min.js"></script>
-  <script type="text/javascript" charset="utf8" src="public/js/datatable.js"></script>
 
 
 
@@ -350,19 +349,14 @@
     });
   </script>
   <script type="text/javascript">
-  document.addEventListener("turbolinks:load", function() {
-  });
+
     document.addEventListener('turbolinks:before-visit', function() {
-      console.log('destroyed blo');
       elem = document.querySelector('#mobile-demo');
       instance = M.Sidenav.getInstance(elem);
       instance.destroy();
     });
 
-    document.addEventListener("turbolinks:before-cache", function() {
-      if ($('#blo-table_wrapper').length == 1)
-        bloTable.destroy()
-    })
+
   </script>
 
 </body>
