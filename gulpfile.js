@@ -3,6 +3,8 @@ var autoprefixer = require('gulp-autoprefixer');
 var htmlmin = require('gulp-htmlmin');
 var minifyInline = require('gulp-minify-inline');
 const imagemin = require('gulp-imagemin');
+const minify = require('gulp-minify');
+
 
 
 
@@ -50,13 +52,20 @@ gulp.task('pages', function() {
 
 
 gulp.task('imagemin', () =>
-    gulp.src('public/images/Slogan/*')
+    gulp.src('public/images/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('dist/public/images/Slogan'))
+        .pipe(gulp.dest('dist/public/images'))
 );
 
 gulp.task('imagemini', () =>
-    gulp.src('public/images/carousal/*')
+    gulp.src('public/images/carousal/optimized/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('dist/public/images/carousal'))
+        .pipe(gulp.dest('dist/public/images/carousal/optimized'))
 );
+
+
+gulp.task('compress', function() {
+  gulp.src('public/js/main.js')
+    .pipe(minify())
+    .pipe(gulp.dest('dist/public/js'))
+});
