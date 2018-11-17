@@ -11,6 +11,8 @@
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="public/js/turbolinks.js"></script>
+  <script src="public/js/angular.min.js"></script>
+  <script src="public/js/main.js"></script>
 
 
 </head>
@@ -60,36 +62,52 @@
       </nav>
     </div>
   </header>
-  <main class="container">
+  <main class="container" ng-app="myApp" ng-controller="myCtrl">
+    <form ng-show="showSearch" name="searchForm">
+      <div class="input-field col s12">
+        <h6>Assembly Name</h6>
+        <select name="searchForm" ng-model="selectedName" ng-options="x for x in assemblyName"  required>
+          <option value="" disabled selected>Choose your option</option>
+        </select>
+        <!-- <span ng-show="searchForm.searchForm.$error.required">Select Assembly</span> -->
+      </div>
+      <div class="input-field col s12">
+        <h6>Designation</h6>
+        <select ng-model="selectedDesignation" ng-options="x for x in designation"  required>
+          <option value="" disabled selected>Choose your option</option>
+        </select>
+      </div>
+      <div class="center">
+        <button type="submit" class="waves-effect waves-light btn-large red lighten-1" ng-click="submitSearch()">Search</button>
+      </div>
+    </form>
+    <div ng-hide="showSearch">
+      <div class="col s12" ng-repeat="deo in deoData">
+        <div ng-class-odd="'card horizontal purple darken-2'" ng-class-even="'card horizontal pink darken-2'">
+          <div class="container center white-text">
+            <h6 style="font-weight:800">{{deo.name}}</h6>
+            <div class="row">
+              <div class="col s6">
+                <p><span style="font-weight:800">Designation:</span> {{deo.designation}}</p>
+              </div>
+              <div class="col s6">
+                <p><span style="font-weight:800">Office:</span> {{deo.officeadd}}</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s6">
+                <p><span style="font-weight:800">Mobile:</span> <a ng-href="tel:{{deo.mobile}}">{{deo.mobile}}</a></p>
+              </div>
+              <div class="col s6">
+                <p><span style="font-weight:800">Email:</span> <a ng-href="mailto:{{deo.email}}">{{deo.email}}</a></p>
+              </div>
+            </div>
+          </div>
 
-    <table id="blo-table" class="material-table" style="width:100%" data-turbolinks='false'>
-      <thead>
-        <tr>
-          <th>Assembly Name</th>
-          <th>Polling Station No</th>
-          <th>Voting Building</th>
-          <th>BLO Name</th>
-          <th>Designation</th>
-          <th>Mobile</th>
-          <th>Supervisor</th>
-          <th>Designation</th>
-          <th>Mobile</th>
-        </tr>
-      </thead>
-      <tfoot>
-        <tr>
-          <th>Assembly Name</th>
-          <th>Polling Station No</th>
-          <th>Voting Building</th>
-          <th>BLO Name</th>
-          <th>Designation</th>
-          <th>Mobile</th>
-          <th>Supervisor</th>
-          <th>Designation</th>
-          <th>Mobile</th>
-        </tr>
-      </tfoot>
-    </table>
+        </div>
+      </div>
+    </div>
+
 
   </main>
 
@@ -144,56 +162,11 @@
   <script type="text/javascript">
     $(document).ready(function() {
       $('.sidenav').sidenav();
+      $('select').formSelect();
 
     });
   </script>
   <script type="text/javascript">
-    var bloTable = null;
-    document.addEventListener("turbolinks:load", function() {
-      elem = document.querySelector('#mobile-demo');
-      instance = new M.Sidenav(elem, {});
-      if (bloTable != null) {
-        bloTable.destroy();
-      }
-      if ($('[id^=DataTables_Table]').length == 0) {
-        bloTable = $('#blo-table').DataTable({
-          stateSave: true,
-          "scrollX": true,
-          "sPageButton": "praveenjuge",
-          "ajax": "public/json/nagoor.json",
-          "columns": [{
-              "data": "assemblyName"
-            },
-            {
-              "data": "pollingStationNumber"
-            },
-            {
-              "data": "votingBuilding"
-            },
-            {
-              "data": "bloName"
-            },
-            {
-              "data": "designation"
-            },
-            {
-              "data": "mobile"
-            },
-            {
-              "data": "supervisor"
-            },
-            {
-              "data": "supervisorDesignation"
-            },
-            {
-              "data": "supervisorMobile"
-            }
-          ]
-        });
-
-      }
-    });
-
     document.addEventListener('turbolinks:before-visit', function() {
       console.log('destroyed blo');
       elem = document.querySelector('#mobile-demo');
@@ -210,3 +183,4 @@
 </body>
 
 </html>
+wwet

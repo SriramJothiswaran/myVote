@@ -121,7 +121,10 @@
       console.log('destroyed mock');
       elem = document.querySelector('#mobile-demo');
       instance = M.Sidenav.getInstance(elem);
-      instance.destroy();
+      if (typeof(instance) !== 'undefined') {
+        console.log(instance);
+        instance.destroy();
+      }
     });
   </script>
 </body>

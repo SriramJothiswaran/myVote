@@ -198,7 +198,9 @@
       console.log('destroyed blo');
       elem = document.querySelector('#mobile-demo');
       instance = M.Sidenav.getInstance(elem);
-      instance.destroy();
+      if (typeof(instance) != 'undefined') {
+        instance.destroy();
+      }
     });
 
     document.addEventListener("turbolinks:before-cache", function() {

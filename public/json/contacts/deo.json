@@ -1,0 +1,146 @@
+[
+ 
+ {
+   "sno": "1",
+   "designation": "DEO (DC)",
+   "name": "Sh. Kumar Pal Gautam, IAS",
+   "officeadd": "Collectrate, Nagaur",
+   "std": "01582",
+   "number": "241444",
+   "mobile": "94140-16226",
+   "fax": "240830",
+   "email": "dm-nag-rj@nic.in"
+ },
+ {
+   "sno": "2",
+   "designation": "SP",
+   "name": "Sh. Harendra Kumar Mahawer",
+   "officeadd": "SP Office, Nagaur",
+   "std": "01582",
+   "number": "242464",
+   "mobile": "98285-00401",
+   "fax": "",
+   "email": "sp-nag-rj@nic.in"
+ },
+ {
+   "sno": "3",
+   "designation": "Deputy DEO (ADM)",
+   "name": "Sh. brajesh Kumar Chandoliya, RAS",
+   "officeadd": "Collectrate, Nagaur",
+   "std": "01582",
+   "number": "240777",
+   "mobile": "98285-00401",
+   "fax": "240830",
+   "email": "dydeo.nagaur@gmail.com"
+ },
+ {
+   "sno": "4",
+   "designation": "RO (SDM) Ladnu",
+   "name": "Smt. Ram Singh Rajawat, RAS",
+   "officeadd": "SDM Office, Ladnu",
+   "std": "01581",
+   "number": "225732",
+   "mobile": "94600-61094",
+   "fax": "225732",
+   "email": "ero-ac106@nic.in"
+ },
+ {
+   "sno": "5",
+   "designation": "RO (SDM) Didwana",
+   "name": "Sh. Utam Singh Sekhawat , RAS",
+   "officeadd": "SDM Office, Didwana",
+   "std": "01580",
+   "number": "220027",
+   "mobile": "94144-66813",
+   "fax": "220027",
+   "email": "ero-ac107@nic.in"
+ },
+ {
+   "sno": "6",
+   "designation": "RO (SDM) Jayal",
+   "name": "Sh. Kahanya Lal, RAS",
+   "officeadd": "SDM Office, Jayal",
+   "std": "01583",
+   "number": "272030",
+   "mobile": "94140-33142",
+   "fax": "272030",
+   "email": "ero-ac108@nic.in"
+ },
+ {
+   "sno": "7",
+   "designation": "RO ( SDM) Nagaur",
+   "name": "Sh. Murari Lal , RAS",
+   "officeadd": "SDM",
+   "std": "01582",
+   "number": "240828",
+   "mobile": "94149-01117",
+   "fax": "240828",
+   "email": "ero-ac109@nic.in"
+ },
+ {
+   "sno": "8",
+   "designation": "RO ( SDM) Khimsar",
+   "name": "Sh. inderjit Yadav, IAS",
+   "officeadd": "Office, Didwana",
+   "std": "01585",
+   "number": "262205",
+   "mobile": "87430-80729",
+   "fax": "262205",
+   "email": "ero-ac110@nic.in"
+ },
+ {
+   "sno": "9",
+   "designation": "RO ( SDM) Merta",
+   "name": "Sh. Hera Lal Meena, RAS",
+   "officeadd": "SDM",
+   "std": "01590",
+   "number": "220017",
+   "mobile": "94146-69024",
+   "fax": "220017",
+   "email": "ero-ac111@nic.in"
+ },
+ {
+   "sno": "10",
+   "designation": "RO ( SDM) Degana",
+   "name": "Sh. Ravindra Kumar , RAS",
+   "officeadd": "Office, Didwana",
+   "std": "01587",
+   "number": "223661",
+   "mobile": "94602-14789",
+   "fax": "223661",
+   "email": "ero-ac112@nic.in"
+ },
+ {
+   "sno": "11",
+   "designation": "RO ( SDM) Makrana",
+   "name": "Sh. Ashok Choudhary, RAS",
+   "officeadd": "SDM",
+   "std": "01588",
+   "number": "246023",
+   "mobile": "94144-75542",
+   "fax": "246023",
+   "email": "ero-ac113@nic.in"
+ },
+ {
+   "sno": "12",
+   "designation": "RO ( SDM) Prabatsar",
+   "name": "Sh. Shakti Singh Bhati, RAS",
+   "officeadd": "Office, Didwana",
+   "std": "01586",
+   "number": "270124",
+   "mobile": "94141-51666",
+   "fax": "270124",
+   "email": "ero-ac114@nic.in"
+ },
+ {
+   "sno": "13",
+   "designation": "RO (SDM) Nawa",
+   "name": "Sh. Ramsukh Gurjar",
+   "officeadd": "SDM",
+   "std": "01581",
+   "number": "262926",
+   "mobile": "94143-54751",
+   "fax": "262926",
+   "email": "ero-ac115@nic.in"
+ }
+]
